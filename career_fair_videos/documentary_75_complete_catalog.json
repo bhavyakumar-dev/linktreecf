@@ -1,0 +1,602 @@
+[
+  {
+    "code": "MEM_DOC_01",
+    "topic": "Memory Lab",
+    "title": "The Architecture of Human Memory",
+    "desc": "Sensory, Working, and Long-Term Memory pipelines. Information travels across synaptic clefts to form enduring cognitive traces.",
+    "metric": "Sensory Buffer: 200ms | Working Memory: 4-7 Chunks | Synaptic Consolidation: 24h",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "MEM_DOC_02",
+    "topic": "Memory Lab",
+    "title": "The Atkinson-Shiffrin Pipeline",
+    "desc": "The foundational multi-store model of human cognition. Rehearsal loops prevent decay, moving signals from short-term buffers to the neocortex.",
+    "metric": "Sensory Input -> Attention Filter -> Working Memory -> Rehearsal -> Neocortex Storage",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "MEM_DOC_03",
+    "topic": "Memory Lab",
+    "title": "Neuroplasticity & Synaptic Pruning",
+    "desc": "Neurons that fire together wire together. Long-Term Potentiation strengthens high-frequency dendritic pathways while pruning inactive connections.",
+    "metric": "LTP Threshold: +40mV | Dendritic Spine Density: +180% | Synaptic Gain: 4.2x",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "MEM_DOC_04",
+    "topic": "Memory Lab",
+    "title": "The Ebbinghaus Forgetting Curve",
+    "desc": "Without active review, up to 70% of new information decays within 48 hours. Strategic spaced retrieval breaks the exponential decay curve.",
+    "metric": "Day 1 Decay: 54% | Day 3 Review: +40% Retention | Day 7 Review: +88% Stability",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "MEM_DOC_05",
+    "topic": "Memory Lab",
+    "title": "The Method of Loci: Spatial Memory Palaces",
+    "desc": "Ancient Greek orators transformed abstract concepts into vivid spatial landmarks inside imagined architectural palaces.",
+    "metric": "Hippocampal Grid Cells | Topographical Landmarks | Recall Velocity: 0.4s/item",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "MEM_DOC_06",
+    "topic": "Memory Lab",
+    "title": "Miller's Law & Chunking Dynamics",
+    "desc": "The working memory bottleneck limits active processing to seven plus or minus two items. Chunking compresses complex data into single cognitive tokens.",
+    "metric": "Raw Bitstream: 28 items -> 4 Conceptual Chunks | Cognitive Load: -68%",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "MEM_DOC_07",
+    "topic": "Memory Lab",
+    "title": "Dual-Coding Theory (Paivio's Model)",
+    "desc": "Information encoded simultaneously through visual non-verbal imagery and verbal symbolic channels achieves 3 times higher recall fidelity.",
+    "metric": "Visual Channel: Ventral Stream | Verbal Channel: Broca & Wernicke | Associative Index: 3.4x",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "MEM_DOC_08",
+    "topic": "Memory Lab",
+    "title": "The Spaced Repetition Algorithm",
+    "desc": "Algorithmic scheduling computes optimal review intervals based on target retention rates and past recall difficulty ratings.",
+    "metric": "Interval Formula: I(n) = I(n-1) * EF | Stability Growth: Linear to Exponential",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "MEM_DOC_09",
+    "topic": "Memory Lab",
+    "title": "Episodic vs Semantic Memory Systems",
+    "desc": "Autobiographical lived experiences in the hippocampus versus abstract factual networks stored across the anterior temporal lobes.",
+    "metric": "Episodic: Time & Place Anchored | Semantic: Conceptual Web | Neocortical Mapping",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "MEM_DOC_10",
+    "topic": "Memory Lab",
+    "title": "The Hippocampus: The Master Index",
+    "desc": "During slow-wave and REM sleep, the hippocampus replays waking neural sequences, transferring memories into permanent neocortical storage.",
+    "metric": "Sharp Wave Ripples: 150-250Hz | REM Replay Speed: 20x | Cortical Consolidation",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "MEM_DOC_11",
+    "topic": "Memory Lab",
+    "title": "Sweller's Cognitive Load Theory",
+    "desc": "Balancing intrinsic task complexity with germane processing while eliminating extraneous cognitive distractions to optimize learning.",
+    "metric": "Intrinsic Load: Task Structure | Germane Load: Schema Formation | Extraneous: 0%",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "MEM_DOC_12",
+    "topic": "Memory Lab",
+    "title": "The Mnemonic Major System",
+    "desc": "Phonetic mapping converts abstract numerical strings into memorable consonant-vowel word structures for instant recall of dates and constants.",
+    "metric": "0: S/Z, 1: T/D, 2: N, 3: M, 4: R, 5: L, 6: Ch/J, 7: K/G, 8: F/V, 9: P/B",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "MEM_DOC_13",
+    "topic": "Memory Lab",
+    "title": "Arcade Game 1: Neural Matrix Recall",
+    "desc": "Visual pattern retention benchmarker. Grid cells expand in real time, challenging short-term spatial memory capacity under strict time constraints.",
+    "metric": "Grid Complexity: 4x4 to 8x8 | Pattern Hold Time: 1.2s | Executive Focus Index: 94%",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "MEM_DOC_14",
+    "topic": "Memory Lab",
+    "title": "Arcade Game 2: N-Back Challenge",
+    "desc": "The gold standard laboratory task for training working memory capacity and fluid intelligence, updating mental buffers continuously.",
+    "metric": "Dual 3-Back Tracking | Auditory + Spatial Stimuli | Working Memory Gain: +28%",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "MEM_DOC_15",
+    "topic": "Memory Lab",
+    "title": "Arcade Game 3: Stroop Effect Arena",
+    "desc": "Testing inhibitory control and cognitive flexibility. Resolving semantic and visual conflicts inside the anterior cingulate cortex.",
+    "metric": "Congruent RT: 320ms | Incongruent RT: 480ms | Prefrontal Cortex Suppression",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "MEM_DOC_16",
+    "topic": "Memory Lab",
+    "title": "Arcade Game 4: Spatial Grid Sprint",
+    "desc": "Topographical navigation simulation. Navigating complex mental mazes using mental rotation and orientation benchmarks.",
+    "metric": "Spatial Rotation: 360 Degrees | Path Planning Latency: 420ms | Mental Landmark Anchoring",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "MEM_DOC_17",
+    "topic": "Memory Lab",
+    "title": "Arcade Game 5: Lexical Associator",
+    "desc": "Semantic network retrieval speed. Activating dormant vocabulary clusters through associative semantic priming pathways.",
+    "metric": "Lexical Access Speed: 180ms | Semantic Distance Metric: 0.82 | Synaptic Flow",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "MEM_DOC_18",
+    "topic": "Memory Lab",
+    "title": "Arcade Game 6: Auditory Digit Span",
+    "desc": "Benchmarking the phonological loop capacity. Retaining numerical sequences through subvocal auditory rehearsal.",
+    "metric": "Forward Span: 8.4 Digits | Reverse Span: 6.8 Digits | Auditory Buffer Stability",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "MEM_DOC_19",
+    "topic": "Memory Lab",
+    "title": "Arcade Game 7: Card Palace Blitz",
+    "desc": "Memorizing randomized 52-card decks using Person-Action-Object mnemonics placed across spatial locus stations.",
+    "metric": "52 Card Benchmark: 98 Seconds | Error Rate: 0.0% | Locus Compression: 17 Rooms",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "MEM_DOC_20",
+    "topic": "Memory Lab",
+    "title": "Arcade Game 8: Face-Name Anchoring",
+    "desc": "Activating the fusiform face area and creating visual-associative pegs to eliminate social memory slip.",
+    "metric": "FFA Activation: High | Feature Extraction: 120ms | Associative Peg Strength: 96%",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "MEM_DOC_21",
+    "topic": "Memory Lab",
+    "title": "Arcade Game 9: Math Speed Circuit",
+    "desc": "Mental calculation speed benchmarker. Utilizing working memory buffers to execute multi-step arithmetic without pen and paper.",
+    "metric": "Arithmetic Throughput: 42 Ops/min | Working Memory Buffer: 5 Steps | Mental Velocity",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "MEM_DOC_22",
+    "topic": "Memory Lab",
+    "title": "Arcade Game 10: Dual Task Reflex",
+    "desc": "Divided attention and cognitive bottleneck analysis. Managing simultaneous motor and verbal cognitive demands.",
+    "metric": "Single Task Latency: 240ms | Dual Task Latency: 360ms | Bottleneck Efficiency: 88%",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "MEM_DOC_23",
+    "topic": "Memory Lab",
+    "title": "Arcade Game 11: Memory Maze Run",
+    "desc": "Latent spatial navigation and mental mapping. Exploring dynamic environments and recalling hidden pathways with zero landmarks.",
+    "metric": "Maze Complexity: Tier 5 | Retracing Accuracy: 99.2% | Cognitive Map Stability",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "MEM_DOC_24",
+    "topic": "Memory Lab",
+    "title": "Arcade Game 12: Synaptic Overdrive Master",
+    "desc": "The ultimate cognitive decathlon. Combining pattern recall, n-back processing, and mental arithmetic in high-stress simulation.",
+    "metric": "Cognitive Agility Score: 98.6th Percentile | Stress Resilience: High | Final Decathlon",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "MEM_DOC_25",
+    "topic": "Memory Lab",
+    "title": "The Future of Neuro-Enhancement",
+    "desc": "The frontier of brain-computer interfaces, non-invasive neurostimulation, and algorithmic cognition augmenting human intelligence.",
+    "metric": "Neural Bandwidth: 100 Mbps | Non-invasive tDCS | Continuous Augmented Cognition",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "FOO_DOC_01",
+    "topic": "Fusion Food Lab",
+    "title": "The Physics of Flavor Architecture",
+    "desc": "100% Pure Vegetarian culinary science. Balancing sweet, sour, salty, bitter, and umami across high-heat thermodynamics.",
+    "metric": "Flavor Harmony Index: 9.8/10 | Thermal Conductivity: Cast Iron vs Steel | Maillard Zone",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "FOO_DOC_02",
+    "topic": "Fusion Food Lab",
+    "title": "The Maillard Reaction in Spiced Cooking",
+    "desc": "The non-enzymatic browning between amino acids and reducing sugars at 140 to 165 degrees Celsius, creating hundreds of volatile aroma compounds.",
+    "metric": "Threshold Temp: 142\u00b0C | Volatile Aromas: 340+ | Pyrazines, Furans, and Pyrroles",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "FOO_DOC_03",
+    "topic": "Fusion Food Lab",
+    "title": "The Chemistry of Tadka & Tempering",
+    "desc": "Extracting fat-soluble volatile essential oils from whole spices into hot ghee and oil at precisely 180 degrees Celsius.",
+    "metric": "Ghee Smoke Point: 250\u00b0C | Essential Oil Volatilization: 175\u00b0C | Cumin & Mustard Chemistry",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "FOO_DOC_04",
+    "topic": "Fusion Food Lab",
+    "title": "The Vegetarian Umami Matrix",
+    "desc": "Combining glutamates in sun-ripened tomatoes with ribonucleotides in shiitake and nutritional yeast to produce an 8x umami multiplier.",
+    "metric": "Free Glutamate: 240mg/100g | Synergy Factor: 8.2x | Plant-Based Umami Saturation",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "FOO_DOC_05",
+    "topic": "Fusion Food Lab",
+    "title": "Molecular Spherification & Hydrocolloids",
+    "desc": "Cross-linking sodium alginate with calcium lactate creates a delicate calcium alginate gel membrane holding liquid flavor capsules.",
+    "metric": "Sodium Alginate: 0.8% | Calcium Lactate Bath: 1.0% | Membrane Thickness: 40 Microns",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "FOO_DOC_06",
+    "topic": "Fusion Food Lab",
+    "title": "Emulsification Mastery in Plant Fats",
+    "desc": "Stabilizing oil-in-water emulsions using sunflower lecithin and mustard mucilage for velvety, separation-free dressings and gravies.",
+    "metric": "Dispersed Phase: Lipid Droplets | Continuous Phase: Aqueous Matrix | HLB Balance: 9.2",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "FOO_DOC_07",
+    "topic": "Fusion Food Lab",
+    "title": "Cryogenic Cooking & Liquid Nitrogen",
+    "desc": "Flash-freezing at minus 196 degrees Celsius prevents large ice crystal formation, preserving delicate cellular structures in pure veg gastronomy.",
+    "metric": "Boiling Point: -196\u00b0C | Ice Crystal Size: <2 Microns | Instant Sorbet Texture",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "FOO_DOC_08",
+    "topic": "Fusion Food Lab",
+    "title": "The 6-Tier Chef Ladder: Tier 1 Commis Chef",
+    "desc": "Mastering knife cuts, brunoise, julienne, strict kitchen hygiene, and rigorous mise en place discipline at the kitchen foundation.",
+    "metric": "Knife Precision: +/-0.5mm | Station Setup Time: 15min | Food Safety HACCP Standard",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "FOO_DOC_09",
+    "topic": "Fusion Food Lab",
+    "title": "The 6-Tier Chef Ladder: Tier 2 Demi Chef de Partie",
+    "desc": "Taking ownership of dedicated kitchen sections. Managing high-heat saute and timing order fire sequences with zero ticket delays.",
+    "metric": "Section Throughput: 80 Covers/Hour | Station Consistency: 99.4% | Heat Control Mastery",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "FOO_DOC_10",
+    "topic": "Fusion Food Lab",
+    "title": "The 6-Tier Chef Ladder: Tier 3 Chef de Partie",
+    "desc": "Leading flagship stations: Tandoor, Continental, Bakery, or Curry. Directing station assistants and enforcing plate consistency.",
+    "metric": "Station Leadership: 4 Junior Chefs | Recipe Standard Compliance: 100% | Wastage: <2%",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "FOO_DOC_11",
+    "topic": "Fusion Food Lab",
+    "title": "The 6-Tier Chef Ladder: Tier 4 Sous Chef",
+    "desc": "The operational engine of the kitchen. Managing expediting, inventory stock levels, labor scheduling, and culinary quality control.",
+    "metric": "Expedite Velocity: 45s per ticket | Labor Cost Optimization: 28% | Kitchen Sync",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "FOO_DOC_12",
+    "topic": "Fusion Food Lab",
+    "title": "The 6-Tier Chef Ladder: Tier 5 Head Chef",
+    "desc": "The culinary commander. Creating seasonal menus, managing supplier partnerships, cost accounting, and inspiring team excellence.",
+    "metric": "Menu Engineering Matrix: Stars, Puzzles, Plowhorses | Profit Margin: 22% | Leadership",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "FOO_DOC_13",
+    "topic": "Fusion Food Lab",
+    "title": "The 6-Tier Chef Ladder: Tier 6 Executive Culinary Director",
+    "desc": "Leading multi-unit dining concepts, brand expansion, commercial kitchen engineering, and enterprise food science research.",
+    "metric": "Multi-Unit Scaling: 20+ Outlets | Enterprise R&D | Global Supply Chain Architecture",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "FOO_DOC_14",
+    "topic": "Fusion Food Lab",
+    "title": "Cookware Thermodynamics: Kadhai to Induction",
+    "desc": "Analyzing heat capacity, thermal diffusivity, and magnetic flux density across cast iron, heavy brass, tri-ply stainless steel, and induction.",
+    "metric": "Cast Iron Heat Retention: High | Tri-Ply Conductivity: 380 W/mK | Induction Efficiency: 90%",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "FOO_DOC_15",
+    "topic": "Fusion Food Lab",
+    "title": "The Science of Dosa & Idli Fermentation",
+    "desc": "Symbiosis of Leuconostoc mesenteroides and wild yeasts in rice and urad dal batter, generating lactic acid and carbon dioxide bubbles.",
+    "metric": "Fermentation Temp: 30-32\u00b0C | pH Drop: 6.2 to 4.4 | Batter Rise Volume: +120%",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "FOO_DOC_16",
+    "topic": "Fusion Food Lab",
+    "title": "Plant-Based Protein Textural Biomimicry",
+    "desc": "Extrusion cooking and moisture texturization transform pea and soy protein isolates into fiber structures mirroring culinary proteins.",
+    "metric": "Protein Content: 72% | Moisture Extrusion: High Shear | Fiber Alignment Index: 0.94",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "FOO_DOC_17",
+    "topic": "Fusion Food Lab",
+    "title": "pH Modulation & Acid Balancing",
+    "desc": "The chemical interplay between tamarind tartaric acid, amchur citric acid, and kokum hydroxycitric acid in tempering spices.",
+    "metric": "pH Scale: 3.2 to 4.8 | Acid-Sugar Brix Ratio: 1:14 | Salivary Stimulation Index",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "FOO_DOC_18",
+    "topic": "Fusion Food Lab",
+    "title": "Sous-Vide Precision Starch Gelatinization",
+    "desc": "Low-temperature vacuum cooking at 64 to 82 degrees Celsius prevents pectin breakdown while achieving velvety root vegetable textures.",
+    "metric": "Temp Precision: +/-0.1\u00b0C | Starch Swelling Temp: 68\u00b0C | Pectin Preservation: 94%",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "FOO_DOC_19",
+    "topic": "Fusion Food Lab",
+    "title": "The Essential Aromatics Pairing Wheel",
+    "desc": "Chemical synergies between eugenol in clove, cinnamaldehyde in cinnamon, and thymol in ajwain creating harmonious flavor bouqets.",
+    "metric": "Aromatic Overlap: 48 Compounds | Headspace Gas Chromatography | Volatile Matrix",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "FOO_DOC_20",
+    "topic": "Fusion Food Lab",
+    "title": "Restaurant Economics & Menu Engineering",
+    "desc": "Calculating raw food cost percentages, contribution margins, and categorizing dishes into Stars, Plowhorses, Puzzles, and Dogs.",
+    "metric": "Target Food Cost: 28-32% | Contribution Margin: $18.50 | Labor Ratio: 25%",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "FOO_DOC_21",
+    "topic": "Fusion Food Lab",
+    "title": "Zero-Waste Circular Kitchen Engineering",
+    "desc": "Upcycling vegetable peels into dehydrated umami seasonings, vegetable stocks, and closed-loop kitchen composting systems.",
+    "metric": "Food Waste Diverted: 94% | Broth Yield: +40 Liters/Week | Carbon Offset: 1.4 Tons",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "FOO_DOC_22",
+    "topic": "Fusion Food Lab",
+    "title": "Plating Architecture & Visual Gastronomy",
+    "desc": "Applying the golden ratio, contrasting color temperatures, and textural elevations to transform food into edible visual art.",
+    "metric": "Golden Ratio: 1.618 | Color Contrast Ratio: 4.5:1 | Textural Variance: 3-Tier Layering",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "FOO_DOC_23",
+    "topic": "Fusion Food Lab",
+    "title": "Food Safety Science & HACCP Controls",
+    "desc": "Identifying critical control points, danger zone temperature avoidance, and microbiological safety across all culinary stations.",
+    "metric": "Danger Zone: 4\u00b0C to 60\u00b0C | Rapid Chill Cycle: <90min | Pathogen Growth Rate: Zero",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "FOO_DOC_24",
+    "topic": "Fusion Food Lab",
+    "title": "Culinary Fusion: Truffle Khichdi & Paneer Carpaccio",
+    "desc": "Deconstructing classic comfort foods with classical French techniques, balancing earthy black truffle with fragrant aged basmati rice.",
+    "metric": "Fusion Harmony Score: 9.6/10 | Aroma Extraction: 35% | Plate Architecture: Elevated",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "FOO_DOC_25",
+    "topic": "Fusion Food Lab",
+    "title": "The 2030 Kitchen: Automation & Food Tech",
+    "desc": "Robotic cooking appliances, precision sensory sensors, and AI recipe optimization redefining modern commercial gastronomy.",
+    "metric": "Automation Precision: 99.8% | AI Recipe Variance: 0.02% | Sustainable Cloud Kitchens",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "ENG_DOC_01",
+    "topic": "English Careers Lab",
+    "title": "The Global Operating System of Commerce",
+    "desc": "English connects 1.5 billion speakers globally. It is the language of cross-border capital, scientific patents, and tech innovation.",
+    "metric": "Global Speakers: 1.5 Billion | Cross-Border Commerce: 84% | Tech Documentation: 92%",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "ENG_DOC_02",
+    "topic": "English Careers Lab",
+    "title": "Career Track 1: Corporate Communications & PR",
+    "desc": "Directing public narratives, managing international media briefings, stakeholder trust, and high-stakes corporate reputation defense.",
+    "metric": "Average Global Comp: $115,000 | Growth Rate: +14% YoY | Stakeholder Reach: Global",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "ENG_DOC_03",
+    "topic": "English Careers Lab",
+    "title": "Career Track 2: International Diplomacy & Affairs",
+    "desc": "Representing nations and transnational organizations in bilateral treaties, multilateral summits, and diplomatic treaty negotiations.",
+    "metric": "Global Diplomacy Positions: 24,000+ | Strategic Impact: High | Cross-Border Influence",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "ENG_DOC_04",
+    "topic": "English Careers Lab",
+    "title": "Career Track 3: Broadcast Journalism & Anchoring",
+    "desc": "Live broadcast composure, handling teleprompter breaking news, field reporting, and investigative long-form documentary journalism.",
+    "metric": "Audience Reach: 50M+ | Broadcast Fluency: 160 WPM | Live Composure Index: 98%",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "ENG_DOC_05",
+    "topic": "English Careers Lab",
+    "title": "Career Track 4: International Corporate Law",
+    "desc": "Cross-border mergers and acquisitions, intellectual property defense, commercial arbitration, and regulatory compliance drafting.",
+    "metric": "Legal Comp Range: $140,000 - $280,000 | Contract Precision: 99.9% | M&A Volume: Multi-Billion",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "ENG_DOC_06",
+    "topic": "English Careers Lab",
+    "title": "Career Track 5: Academic Research & Publishing",
+    "desc": "Publishing peer-reviewed literature in high-impact international journals (Nature, Science), defending doctoral dissertations.",
+    "metric": "Citation Impact Factor: 18.4 | H-Index Growth: 2.4x | Peer Review Acceptance: 82%",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "ENG_DOC_07",
+    "topic": "English Careers Lab",
+    "title": "Career Track 6: Technical Writing & AI Systems",
+    "desc": "Authoring developer documentation, API contracts, SDK walkthroughs, and system architectural specifications for enterprise cloud platforms.",
+    "metric": "Developer Engagement: 500k+ | API Clarity Index: 98% | Technical Writer Comp: $125,000",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "ENG_DOC_08",
+    "topic": "English Careers Lab",
+    "title": "Career Track 7: Creative Copywriting & Advertising",
+    "desc": "Engineering high-converting global advertising campaigns, brand taglines, emotional consumer journeys, and viral creative scripts.",
+    "metric": "Campaign ROI: 6.8x | Conversion Rate Lift: +44% | Global Brand Footprint: Omnichannel",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "ENG_DOC_09",
+    "topic": "English Careers Lab",
+    "title": "Career Track 8: Voiceover, Podcasting & Audio Media",
+    "desc": "Acoustic brand presence, audio documentary narration, podcast production, and international voice acting for interactive entertainment.",
+    "metric": "Audio Industry Growth: +24% CAGR | Listener Retention: 88% | Vocal Delivery Mastery",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "ENG_DOC_10",
+    "topic": "English Careers Lab",
+    "title": "6D AI Speech Radar: Dimension 1 \u2014 Pitch Variance",
+    "desc": "Eliminating robotic monotone speech through dynamic pitch inflections that guide the listener's emotional engagement.",
+    "metric": "Pitch Range: 110Hz to 260Hz | Dynamic Modulation: +42% | Engagement Retention: High",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "ENG_DOC_11",
+    "topic": "English Careers Lab",
+    "title": "6D AI Speech Radar: Dimension 2 \u2014 Articulation Rate",
+    "desc": "Calibrating speaking cadence between 130 and 160 words per minute to optimize cognitive comprehension without rushing.",
+    "metric": "Optimal Cadence: 145 WPM | Syllable Clarity: 98.4% | Listener Cognitive Buffer: Ideal",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "ENG_DOC_12",
+    "topic": "English Careers Lab",
+    "title": "6D AI Speech Radar: Dimension 3 \u2014 Pausing Dynamics",
+    "desc": "Harnessing the psychological power of deliberate silences to emphasize key conclusions while eliminating vocal fillers.",
+    "metric": "Filler Word Frequency: <0.5% | Dramatic Pause Duration: 1.2s | Authoritative Gravitas",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "ENG_DOC_13",
+    "topic": "English Careers Lab",
+    "title": "6D AI Speech Radar: Dimension 4 \u2014 Formant Resonance",
+    "desc": "Activating deep chest resonance (F1/F2 formants) to project vocal warmth, commanding authority, and effortless room presence.",
+    "metric": "First Formant (F1): 500Hz | Second Formant (F2): 1500Hz | Acoustic Warmth Index: 9.4",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "ENG_DOC_14",
+    "topic": "English Careers Lab",
+    "title": "6D AI Speech Radar: Dimension 5 \u2014 Stress & Nuclear Accent",
+    "desc": "Directing sentence focus through deliberate word-level pitch excursions, ensuring critical insights register with punchy impact.",
+    "metric": "Nuclear Stress Lift: +4dB | Semantic Focus Accuracy: 99% | Rhetorical Punch",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "ENG_DOC_15",
+    "topic": "English Careers Lab",
+    "title": "6D AI Speech Radar: Dimension 6 \u2014 Fluency Stability",
+    "desc": "Measuring the sustained flow of coherent speech under cognitive stress, minimizing hesitation and speech repair cycles.",
+    "metric": "Stability Index: 96.8/100 | Stress Recovery: <400ms | Cognitive Resilience",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "ENG_DOC_16",
+    "topic": "English Careers Lab",
+    "title": "The Teleprompter Simulation Studio",
+    "desc": "Real-time scrolling text tracking, peripheral vision management, and natural conversational delivery while reading live copy.",
+    "metric": "Scroll Speed: 150 WPM | Gaze Lock Deviation: <2\u00b0 | Natural Cadence Score: 98%",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "ENG_DOC_17",
+    "topic": "English Careers Lab",
+    "title": "Competitive Exam Blueprint: CUET English 2026",
+    "desc": "Mastering contextual vocabulary, reading comprehension synthesis, verbal analogies, and high-speed paragraph jumbles.",
+    "metric": "CUET Score Target: 200/200 | Reading Speed: 320 WPM | Accuracy Benchmark: 99.2%",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "ENG_DOC_18",
+    "topic": "English Careers Lab",
+    "title": "Competitive Exam Blueprint: CLAT Legal Reasoning",
+    "desc": "Deconstructing complex legal propositions, identifying underlying principles, and executing flawless analytical deduction.",
+    "metric": "CLAT Verbal Target: 30/30 | Legal Vocabulary Mastery: 1,200 Terms | Inference Speed: Fast",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "ENG_DOC_19",
+    "topic": "English Careers Lab",
+    "title": "Competitive Exam Blueprint: SAT Reading & Writing",
+    "desc": "Standard English conventions, rhetorical analysis, cross-text connections, and quantitative data synthesis on the digital SAT.",
+    "metric": "Digital SAT Verbal: 800/800 | Passage Dissection: 45s | High-Frequency Vocab: Mastered",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "ENG_DOC_20",
+    "topic": "English Careers Lab",
+    "title": "Competitive Exam Blueprint: IELTS & TOEFL Band 9",
+    "desc": "Achieving native-level lexical resource, grammatical range, coherent discourse markers, and pronunciation clarity.",
+    "metric": "IELTS Target: Band 9.0 | TOEFL iBT Target: 118+/120 | Discourse Coherence: Seamless",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "ENG_DOC_21",
+    "topic": "English Careers Lab",
+    "title": "High-Stakes Venture Capital Pitching",
+    "desc": "Structuring the 10-slide narrative: the burning problem, proprietary moat, unit economics, market size, and the funding ask.",
+    "metric": "Investor Attention Span: 3 Minutes | Slide Count: 10 | Capital Close Rate: Top Tier",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "ENG_DOC_22",
+    "topic": "English Careers Lab",
+    "title": "Cross-Cultural Business Negotiation",
+    "desc": "Navigating high-context versus low-context communication styles, principled negotiation, and creating win-win commercial contracts.",
+    "metric": "Negotiation Stance: Principled BATNA | Cross-Cultural Empathy: High | Deal Closure: 94%",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "ENG_DOC_23",
+    "topic": "English Careers Lab",
+    "title": "Keynote Mastery & TEDx Stage Presence",
+    "desc": "Mastering stage movement, audience eye contact triangulation, opening narrative hooks, and inspiring standing ovations.",
+    "metric": "Stage Triangulation: 3 Key Zones | Narrative Hook Time: 20s | Standing Ovation Index",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "ENG_DOC_24",
+    "topic": "English Careers Lab",
+    "title": "Overcoming Vernacular Language Anxiety",
+    "desc": "Dismantling the myth of linguistic elitism. Reframing English as an empowering technical tool while honoring your cultural roots.",
+    "metric": "Linguistic Confidence: 100% | Fear Dissolution: Complete | Multilingual Mastery",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  },
+  {
+    "code": "ENG_DOC_25",
+    "topic": "English Careers Lab",
+    "title": "The 2030 Global Communicator",
+    "desc": "Blending human empathy, cross-cultural storytelling, and AI co-speech augmentation to lead global teams into the future.",
+    "metric": "Cross-Border Influence: Limitless | AI Collaboration: Fluid | Future Leadership: Assured",
+    "cuts": "50 cuts @ 0.4s (20s)"
+  }
+]

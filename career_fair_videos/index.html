@@ -3,18 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kanakia Career Fair 2026 — Infinite Loop Video Suite</title>
+  <title>Kanakia Career Fair 2026 — Cinema, Documentary & Kiosk Video Suite</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
   <style>
     :root {
       --bg: #030712;
-      --card: rgba(17, 24, 39, 0.75);
+      --card: rgba(17, 24, 39, 0.85);
       --border: rgba(255, 255, 255, 0.1);
       --cyan: #38bdf8;
-      --indigo: #818cf8;
       --emerald: #34d399;
+      --indigo: #818cf8;
       --gold: #fbbf24;
       --pink: #f43f5e;
     }
@@ -25,7 +25,7 @@
       font-family: 'Plus Jakarta Sans', sans-serif;
       min-height: 100vh;
       overflow-x: hidden;
-      padding-bottom: 60px;
+      padding-bottom: 80px;
     }
     .glow-bg {
       position: fixed;
@@ -40,7 +40,7 @@
     .g2 { bottom: -100px; right: 10%; background: rgba(129, 140, 248, 0.12); }
 
     .container {
-      max-width: 1400px;
+      max-width: 1440px;
       margin: 0 auto;
       padding: 40px 24px;
       position: relative;
@@ -60,8 +60,8 @@
       gap: 16px;
     }
     .brand-logo {
-      width: 50px;
-      height: 50px;
+      width: 52px;
+      height: 52px;
       background: linear-gradient(135deg, var(--cyan), var(--indigo));
       border-radius: 14px;
       display: flex;
@@ -73,145 +73,148 @@
     .brand-text h1 { font-size: 24px; font-weight: 800; }
     .brand-text p { font-size: 13px; color: #94a3b8; text-transform: uppercase; letter-spacing: 0.1em; }
 
-    .header-actions {
+    .playlist-pills {
       display: flex;
-      gap: 14px;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 30px;
     }
-    .btn {
-      padding: 12px 24px;
-      border-radius: 9999px;
-      font-size: 14px;
-      font-weight: 700;
+    .pill {
+      background: rgba(30, 41, 59, 0.8);
+      border: 1px solid var(--border);
+      padding: 10px 18px;
+      border-radius: 30px;
+      color: #cbd5e1;
       text-decoration: none;
-      display: inline-flex;
+      font-size: 13px;
+      font-weight: 600;
+      display: flex;
       align-items: center;
       gap: 8px;
       transition: all 0.2s ease;
-      cursor: pointer;
     }
-    .btn-primary {
-      background: linear-gradient(135deg, var(--cyan), #2563eb);
+    .pill:hover {
+      border-color: var(--cyan);
       color: #fff;
-      border: none;
-      box-shadow: 0 4px 14px rgba(56, 189, 248, 0.3);
+      transform: translateY(-2px);
     }
-    .btn-secondary {
-      background: rgba(255, 255, 255, 0.08);
-      color: #cbd5e1;
-      border: 1px solid var(--border);
-    }
-    .btn:hover { transform: translateY(-2px); }
 
-    /* Main Showcase Video Player */
-    .player-section {
+    /* Cinema Theater Player */
+    .cinema-theater {
       background: var(--card);
       border: 1px solid var(--border);
-      border-radius: 28px;
-      padding: 32px;
+      border-radius: 24px;
+      padding: 30px;
       margin-bottom: 50px;
-      backdrop-filter: blur(20px);
-      display: grid;
-      grid-template-columns: 1.4fr 0.6fr;
-      gap: 36px;
-      align-items: center;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.5);
     }
-    .video-frame-box {
-      width: 100%;
-      border-radius: 20px;
-      overflow: hidden;
-      box-shadow: 0 20px 40px rgba(0,0,0,0.6);
-      background: #000;
+    .cinema-screen {
       position: relative;
+      border-radius: 16px;
+      overflow: hidden;
+      background: #000;
+      aspect-ratio: 16 / 9;
+      margin-bottom: 24px;
+      border: 1px solid rgba(255,255,255,0.1);
     }
     video {
       width: 100%;
       height: 100%;
-      display: block;
+      object-fit: cover;
     }
-    .player-meta h2 { font-size: 32px; font-weight: 900; margin-bottom: 12px; }
-    .player-meta p { font-size: 16px; color: #94a3b8; line-height: 1.6; margin-bottom: 24px; }
-    .badge-row {
-      display: flex;
-      gap: 10px;
-      flex-wrap: wrap;
-      margin-bottom: 24px;
-    }
-    .p-badge {
-      background: rgba(255, 255, 255, 0.08);
-      padding: 6px 14px;
-      border-radius: 8px;
-      font-size: 13px;
-      font-weight: 700;
-      color: var(--cyan);
-    }
-
-    /* Gallery Grid */
-    .gallery-title {
-      font-size: 28px;
-      font-weight: 800;
-      margin-bottom: 24px;
+    .cinema-meta {
       display: flex;
       justify-content: space-between;
-      align-items: center;
+      align-items: flex-start;
+      gap: 20px;
     }
+    .c-badge {
+      display: inline-block;
+      padding: 6px 14px;
+      border-radius: 20px;
+      background: rgba(56, 189, 248, 0.15);
+      color: var(--cyan);
+      font-size: 12px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    /* Filter Tabs */
+    .filter-tabs {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 30px;
+      overflow-x: auto;
+      padding-bottom: 10px;
+    }
+    .tab-btn {
+      background: rgba(17, 24, 39, 0.6);
+      border: 1px solid var(--border);
+      color: #94a3b8;
+      padding: 12px 24px;
+      border-radius: 12px;
+      font-weight: 700;
+      font-size: 14px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      white-space: nowrap;
+    }
+    .tab-btn.active, .tab-btn:hover {
+      background: rgba(56, 189, 248, 0.15);
+      border-color: var(--cyan);
+      color: #fff;
+    }
+
+    /* Video Grid */
     .video-grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
       gap: 24px;
     }
-    .v-card {
+    .card {
       background: var(--card);
       border: 1px solid var(--border);
-      border-radius: 20px;
+      border-radius: 18px;
       padding: 20px;
+      transition: all 0.3s ease;
+      cursor: pointer;
       display: flex;
       flex-direction: column;
-      transition: all 0.2s ease;
-      cursor: pointer;
+      justify-content: space-between;
     }
-    .v-card:hover {
-      transform: translateY(-4px);
+    .card:hover {
+      transform: translateY(-6px);
       border-color: var(--cyan);
+      box-shadow: 0 12px 25px rgba(56, 189, 248, 0.15);
     }
-    .v-thumb {
-      height: 160px;
-      background: #0a0f1d;
-      border-radius: 12px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 40px;
-      margin-bottom: 16px;
-      position: relative;
+    .card h3 {
+      font-size: 16px;
+      font-weight: 700;
+      margin: 10px 0 6px 0;
+      line-height: 1.4;
     }
-    .v-dur {
-      position: absolute;
-      bottom: 8px;
-      right: 8px;
-      background: rgba(0,0,0,0.8);
-      padding: 4px 10px;
-      border-radius: 6px;
-      font-size: 12px;
-      font-weight: 800;
-      font-family: 'JetBrains Mono', monospace;
-    }
-    .v-name {
-      font-size: 18px;
-      font-weight: 800;
-      margin-bottom: 6px;
-      color: #fff;
-    }
-    .v-desc {
+    .card p {
       font-size: 13px;
       color: #94a3b8;
-      line-height: 1.4;
-      flex-grow: 1;
+      line-height: 1.5;
       margin-bottom: 16px;
     }
-    .v-actions {
+    .card-footer {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      border-top: 1px solid rgba(255,255,255,0.06);
+      padding-top: 14px;
+    }
+    .btn-play {
+      background: linear-gradient(135deg, var(--cyan), var(--indigo));
+      color: #030712;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 12px;
+      cursor: pointer;
     }
   </style>
 </head>
@@ -224,97 +227,342 @@
       <div class="brand-h">
         <div class="brand-logo">K</div>
         <div class="brand-text">
-          <h1>Kanakia Career Fair 2026 · Video Kiosk Suite</h1>
-          <p>Seamless Infinite Loop Exhibition Videos · 100+ Variations</p>
+          <h1>Kanakia Career Fair 2026</h1>
+          <p>Cinema, Documentary & Kiosk Video Suite</p>
         </div>
       </div>
-      <div class="header-actions">
-        <a href="../index.html" class="btn btn-secondary">← Back to Links</a>
-        <a href="career_fair_videos_bundle.zip" class="btn btn-primary" download>📦 Download ZIP Bundle (31.6 MB)</a>
+      <div>
+        <a href="career_fair_videos_bundle.zip" download class="pill" style="background:linear-gradient(135deg, var(--cyan), var(--indigo)); color:#030712; font-weight:800; border:none;">
+          ⬇ Download Video Suite (.ZIP)
+        </a>
       </div>
     </header>
 
-    <!-- Master Kiosk Player -->
-    <div class="player-section">
-      <div class="video-frame-box">
-        <video id="mainPlayer" controls autoplay loop muted playsinline src="CARTOON_01_Brain_Blast_Arcade_30s.mp4"></video>
+    <!-- Public YouTube Playlist Badges -->
+    <div class="playlist-pills">
+      <a href="https://www.youtube.com/playlist?list=PLBI8E86ig3Gw" target="_blank" class="pill">🧠 Memory Lab Playlist (YouTube)</a>
+      <a href="https://www.youtube.com/playlist?list=PLCkPUTXS361s" target="_blank" class="pill">🍲 Fusion Food Lab Playlist (YouTube)</a>
+      <a href="https://www.youtube.com/playlist?list=PLYRFk8mpqN_c" target="_blank" class="pill">🎙️ English Careers Playlist (YouTube)</a>
+      <a href="https://www.youtube.com/playlist?list=PLUMycGil2ok0" target="_blank" class="pill">⚡ Cartoon Dopamine Playlist (YouTube)</a>
+      <a href="https://www.youtube.com/playlist?list=PLStXJzbQiNQw" target="_blank" class="pill">♾️ Marathon Kiosk Loops Playlist (YouTube)</a>
+    </div>
+
+    <!-- Main Cinema Player -->
+    <div class="cinema-theater">
+      <div class="cinema-screen">
+        <video id="main-player" controls autoplay loop playsinline src="CARTOON_01_Brain_Blast_Arcade_30s.mp4"></video>
       </div>
-      <div class="player-meta">
-        <div class="badge-row">
-          <span class="p-badge" id="playerBadge">CARTOON ARCADE · 30S LOOP</span>
-          <span class="p-badge" style="color: var(--emerald);">SEAMLESS REPEAT ON</span>
+      <div class="cinema-meta">
+        <div>
+          <span class="c-badge" id="player-badge">CINEMA THEATER · 1080P MASTER</span>
+          <h2 id="player-title" style="font-size:24px; font-weight:800; margin-bottom:8px;">Kanakia Career Fair Showcase Reel</h2>
+          <p id="player-desc" style="color:#94a3b8; font-size:15px; max-width:850px; line-height:1.6;">Select any feature film chapter, hyper-dopamine documentary episode, or marathon kiosk loop below to play.</p>
         </div>
-        <h2 id="playerTitle">Brain Blast Arcade! 🧠⚡</h2>
-        <p id="playerDesc">High dopamine recall arena! Power up your neurons, master the Roman Memory Palace, and crush the cognitive arcade mini-games.</p>
-        <div style="display: flex; gap: 12px;">
-          <a id="downloadBtn" href="CARTOON_01_Brain_Blast_Arcade_30s.mp4" download class="btn btn-primary">⬇️ Download Video</a>
-          <button class="btn btn-secondary" onclick="document.getElementById('mainPlayer').requestFullscreen()">⛶ Fullscreen Kiosk</button>
+        <div>
+          <a id="download-active-btn" href="CARTOON_01_Brain_Blast_Arcade_30s.mp4" download class="pill" style="border-color:var(--cyan); color:var(--cyan);">⬇ Download MP4</a>
         </div>
       </div>
     </div>
 
-    <!-- Gallery of Videos -->
-    <div class="gallery-title">
-      <span>Exhibition Video Catalog</span>
-      <span style="font-size: 15px; color: #94a3b8;">Click any card to play on repeat</span>
+    <!-- Filter Tabs -->
+    <div class="filter-tabs">
+      <button class="tab-btn active" onclick="filterCategory('all')">All Media</button>
+      <button class="tab-btn" onclick="filterCategory('feature')">1-Hour Feature Film</button>
+      <button class="tab-btn" onclick="filterCategory('memory')">Memory Lab (25 Ep)</button>
+      <button class="tab-btn" onclick="filterCategory('food')">Fusion Food Lab (25 Ep)</button>
+      <button class="tab-btn" onclick="filterCategory('english')">English Speech Lab (25 Ep)</button>
+      <button class="tab-btn" onclick="filterCategory('cartoon')">Cartoon Attraction (5 Reels)</button>
+      <button class="tab-btn" onclick="filterCategory('marathon')">Continuous Kiosk Loops</button>
     </div>
 
-    <div class="video-grid" id="videoGrid">
-      <!-- Cards rendered via JS -->
-    </div>
+    <!-- Video Grid -->
+    <div class="video-grid" id="video-grid"></div>
   </div>
 
   <script>
-    const videos = [
-      { id: "CARTOON_01", title: "Brain Blast Arcade! 🧠⚡", dur: "30s", file: "CARTOON_01_Brain_Blast_Arcade_30s.mp4", icon: "🧠", tag: "CARTOON DOPAMINE", desc: "10X combo streak, memory palace & live arcade high scores." },
-      { id: "CARTOON_02", title: "Chef Sizzle Rush! 🥘🔥", dur: "30s", file: "CARTOON_02_Chef_Sizzle_Rush_30s.mp4", icon: "🥘", tag: "CARTOON DOPAMINE", desc: "Molecular desi magic with 100% pure vegetarian culinary physics." },
-      { id: "CARTOON_03", title: "Word Wizard Duel! 🗣️✨", dur: "30s", file: "CARTOON_03_Word_Wizard_Duel_30s.mp4", icon: "🗣️", tag: "CARTOON DOPAMINE", desc: "6D AI speech radar and executive fluency teleprompter battles." },
-      { id: "CARTOON_04", title: "Career Quest 2026! 🚀🎮", dur: "30s", file: "CARTOON_04_Career_Quest_Avatar_Select_30s.mp4", icon: "🚀", tag: "CARTOON DOPAMINE", desc: "Cyber character select: Pilot, Corporate Lawyer, AI Architect & Star Chef." },
-      { id: "CARTOON_05", title: "Dopamine Jackpot Kiosk! 🎰🌟", dur: "30s", file: "CARTOON_05_Dopamine_Jackpot_Spin_30s.mp4", icon: "🎰", tag: "CARTOON DOPAMINE", desc: "Spin the fortune wheel, earn badges, and step up to play now." },
-      { id: "FLAG_01", title: "HyperFrames Teaser Reel", dur: "15s", file: "type01_teaser_15s.mp4", icon: "✨", tag: "HYPERFRAMES 1080P", desc: "High-energy kinetic motion graphics hook covering all 3 domains." },
-      { id: "MEM_01", title: "Atkinson Memory Architecture", dur: "30s", file: "MEM_01_30s.mp4", icon: "🧠", tag: "COGNITIVE SCIENCE", desc: "Sensory buffer to working memory and permanent consolidation." },
-      { id: "MEM_02", title: "Virtual Memory Palace", dur: "60s", file: "MEM_02_60s.mp4", icon: "🏰", tag: "COGNITIVE SCIENCE", desc: "Method of Loci masterclass across 5 virtual rooms." },
-      { id: "FOOD_01", title: "Desi Kitchen Replicator", dur: "30s", file: "FOOD_01_30s.mp4", icon: "🥘", tag: "CULINARY SCIENCE", desc: "Peruvian Nikkei ceviche, naan pizzas and culinary chemistry." },
-      { id: "FOOD_02", title: "Maillard Reaction Science", dur: "60s", file: "FOOD_02_60s.mp4", icon: "🔥", tag: "CULINARY SCIENCE", desc: "Amino acid browning and caramelized savory depth." },
-      { id: "ENG_01", title: "Every Career Speaks English", dur: "30s", file: "ENG_01_30s.mp4", icon: "🗣️", tag: "CAREER INTELLIGENCE", desc: "32+ high-trajectory careers where executive English opens doors." },
-      { id: "ENG_02", title: "6D AI Speech Radar Coach", dur: "60s", file: "ENG_02_60s.mp4", icon: "🎙️", tag: "CAREER INTELLIGENCE", desc: "Fluency, prosody, precision, and executive cadence benchmark." },
-      { id: "MAR_04", title: "4-Minute Kiosk Loop", dur: "4m", file: "MARATHON_LOOP_04MIN_240s.mp4", icon: "🔄", tag: "MARATHON LOOP", desc: "Continuous 4-minute multi-act showcase for stall TVs." },
-      { id: "MAR_08", title: "8-Minute Kiosk Loop", dur: "8m", file: "MARATHON_LOOP_08MIN_480s.mp4", icon: "📺", tag: "MARATHON LOOP", desc: "Continuous 8-minute uninterrupted stall presentation." }
-    ];
-
-    const grid = document.getElementById('videoGrid');
-    const player = document.getElementById('mainPlayer');
-    const pTitle = document.getElementById('playerTitle');
-    const pDesc = document.getElementById('playerDesc');
-    const pBadge = document.getElementById('playerBadge');
-    const dBtn = document.getElementById('downloadBtn');
-
-    videos.forEach(v => {
-      const card = document.createElement('div');
-      card.className = 'v-card';
-      card.innerHTML = `
-        <div class="v-thumb">
-          <span>${v.icon}</span>
-          <span class="v-dur">${v.dur}</span>
-        </div>
-        <div class="v-name">${v.title}</div>
-        <div class="v-desc">${v.desc}</div>
-        <div class="v-actions">
-          <span style="font-size: 11px; font-weight: 800; color: var(--cyan);">${v.tag}</span>
-          <a href="${v.file}" download class="btn btn-secondary" style="padding: 6px 14px; font-size: 12px;" onclick="event.stopPropagation()">⬇️</a>
-        </div>
-      `;
-      card.onclick = () => {
-        player.src = v.file;
-        player.play();
-        pTitle.textContent = v.title;
-        pDesc.textContent = v.desc;
-        pBadge.textContent = `${v.tag} · ${v.dur} LOOP`;
-        dBtn.href = v.file;
-        window.scrollTo({ top: 120, behavior: 'smooth' });
-      };
-      grid.appendChild(card);
+    const videos = [];
+    videos.push({
+      file: "CHAPTER_01.mp4",
+      title: "CHAPTER 01",
+      category: "Feature Film",
+      type: "feature",
+      desc: "1-Hour Cinematic Documentary: Two Paths"
     });
+    videos.push({
+      file: "CHAPTER_02.mp4",
+      title: "CHAPTER 02",
+      category: "Feature Film",
+      type: "feature",
+      desc: "1-Hour Cinematic Documentary: Two Paths"
+    });
+    videos.push({
+      file: "CHAPTER_03.mp4",
+      title: "CHAPTER 03",
+      category: "Feature Film",
+      type: "feature",
+      desc: "1-Hour Cinematic Documentary: Two Paths"
+    });
+    videos.push({
+      file: "CHAPTER_04.mp4",
+      title: "CHAPTER 04",
+      category: "Feature Film",
+      type: "feature",
+      desc: "1-Hour Cinematic Documentary: Two Paths"
+    });
+    videos.push({
+      file: "CHAPTER_05.mp4",
+      title: "CHAPTER 05",
+      category: "Feature Film",
+      type: "feature",
+      desc: "1-Hour Cinematic Documentary: Two Paths"
+    });
+    videos.push({
+      file: "CHAPTER_06.mp4",
+      title: "CHAPTER 06",
+      category: "Feature Film",
+      type: "feature",
+      desc: "1-Hour Cinematic Documentary: Two Paths"
+    });
+    videos.push({
+      file: "CHAPTER_07.mp4",
+      title: "CHAPTER 07",
+      category: "Feature Film",
+      type: "feature",
+      desc: "1-Hour Cinematic Documentary: Two Paths"
+    });
+    videos.push({
+      file: "CHAPTER_08.mp4",
+      title: "CHAPTER 08",
+      category: "Feature Film",
+      type: "feature",
+      desc: "1-Hour Cinematic Documentary: Two Paths"
+    });
+    videos.push({
+      file: "CHAPTER_09.mp4",
+      title: "CHAPTER 09",
+      category: "Feature Film",
+      type: "feature",
+      desc: "1-Hour Cinematic Documentary: Two Paths"
+    });
+    videos.push({
+      file: "CHAPTER_10.mp4",
+      title: "CHAPTER 10",
+      category: "Feature Film",
+      type: "feature",
+      desc: "1-Hour Cinematic Documentary: Two Paths"
+    });
+    videos.push({
+      file: "TWO_PATHS_THE_FEATURE_FILM_1HR.mp4",
+      title: "TWO PATHS THE FEATURE FILM 1HR",
+      category: "Feature Film",
+      type: "feature",
+      desc: "1-Hour Cinematic Documentary: Two Paths"
+    });
+    videos.push({
+      file: "MEM_DOC_01.mp4",
+      title: "MEM DOC 01",
+      category: "Memory Lab",
+      type: "memory",
+      desc: "Hyper-Dopamine 0.4s Cut Showcase Episode"
+    });
+    videos.push({
+      file: "MEM_DOC_02.mp4",
+      title: "MEM DOC 02",
+      category: "Memory Lab",
+      type: "memory",
+      desc: "Hyper-Dopamine 0.4s Cut Showcase Episode"
+    });
+    videos.push({
+      file: "MEM_DOC_03.mp4",
+      title: "MEM DOC 03",
+      category: "Memory Lab",
+      type: "memory",
+      desc: "Hyper-Dopamine 0.4s Cut Showcase Episode"
+    });
+    videos.push({
+      file: "MEM_DOC_04.mp4",
+      title: "MEM DOC 04",
+      category: "Memory Lab",
+      type: "memory",
+      desc: "Hyper-Dopamine 0.4s Cut Showcase Episode"
+    });
+    videos.push({
+      file: "MEM_DOC_05.mp4",
+      title: "MEM DOC 05",
+      category: "Memory Lab",
+      type: "memory",
+      desc: "Hyper-Dopamine 0.4s Cut Showcase Episode"
+    });
+    videos.push({
+      file: "FOO_DOC_01.mp4",
+      title: "FOO DOC 01",
+      category: "Food Lab",
+      type: "food",
+      desc: "Hyper-Dopamine 0.4s Cut Showcase Episode"
+    });
+    videos.push({
+      file: "FOO_DOC_02.mp4",
+      title: "FOO DOC 02",
+      category: "Food Lab",
+      type: "food",
+      desc: "Hyper-Dopamine 0.4s Cut Showcase Episode"
+    });
+    videos.push({
+      file: "FOO_DOC_03.mp4",
+      title: "FOO DOC 03",
+      category: "Food Lab",
+      type: "food",
+      desc: "Hyper-Dopamine 0.4s Cut Showcase Episode"
+    });
+    videos.push({
+      file: "FOO_DOC_04.mp4",
+      title: "FOO DOC 04",
+      category: "Food Lab",
+      type: "food",
+      desc: "Hyper-Dopamine 0.4s Cut Showcase Episode"
+    });
+    videos.push({
+      file: "FOO_DOC_05.mp4",
+      title: "FOO DOC 05",
+      category: "Food Lab",
+      type: "food",
+      desc: "Hyper-Dopamine 0.4s Cut Showcase Episode"
+    });
+    videos.push({
+      file: "ENG_DOC_01.mp4",
+      title: "ENG DOC 01",
+      category: "English Lab",
+      type: "english",
+      desc: "Hyper-Dopamine 0.4s Cut Showcase Episode"
+    });
+    videos.push({
+      file: "ENG_DOC_02.mp4",
+      title: "ENG DOC 02",
+      category: "English Lab",
+      type: "english",
+      desc: "Hyper-Dopamine 0.4s Cut Showcase Episode"
+    });
+    videos.push({
+      file: "ENG_DOC_03.mp4",
+      title: "ENG DOC 03",
+      category: "English Lab",
+      type: "english",
+      desc: "Hyper-Dopamine 0.4s Cut Showcase Episode"
+    });
+    videos.push({
+      file: "ENG_DOC_04.mp4",
+      title: "ENG DOC 04",
+      category: "English Lab",
+      type: "english",
+      desc: "Hyper-Dopamine 0.4s Cut Showcase Episode"
+    });
+    videos.push({
+      file: "ENG_DOC_05.mp4",
+      title: "ENG DOC 05",
+      category: "English Lab",
+      type: "english",
+      desc: "Hyper-Dopamine 0.4s Cut Showcase Episode"
+    });
+    videos.push({
+      file: "CARTOON_01_Brain_Blast_Arcade_30s.mp4",
+      title: "CARTOON 01 Brain Blast Arcade 30s",
+      category: "Cartoon Dopamine",
+      type: "cartoon",
+      desc: "High-Energy Stall Attraction Reel"
+    });
+    videos.push({
+      file: "CARTOON_02_Chef_Sizzle_Rush_30s.mp4",
+      title: "CARTOON 02 Chef Sizzle Rush 30s",
+      category: "Cartoon Dopamine",
+      type: "cartoon",
+      desc: "High-Energy Stall Attraction Reel"
+    });
+    videos.push({
+      file: "CARTOON_03_Word_Wizard_Duel_30s.mp4",
+      title: "CARTOON 03 Word Wizard Duel 30s",
+      category: "Cartoon Dopamine",
+      type: "cartoon",
+      desc: "High-Energy Stall Attraction Reel"
+    });
+    videos.push({
+      file: "CARTOON_04_Career_Quest_Avatar_Select_30s.mp4",
+      title: "CARTOON 04 Career Quest Avatar Select 30s",
+      category: "Cartoon Dopamine",
+      type: "cartoon",
+      desc: "High-Energy Stall Attraction Reel"
+    });
+    videos.push({
+      file: "CARTOON_05_Dopamine_Jackpot_Spin_30s.mp4",
+      title: "CARTOON 05 Dopamine Jackpot Spin 30s",
+      category: "Cartoon Dopamine",
+      type: "cartoon",
+      desc: "High-Energy Stall Attraction Reel"
+    });
+    videos.push({
+      file: "MARATHON_LOOP_04MIN_240s.mp4",
+      title: "MARATHON LOOP 04MIN 240s",
+      category: "Marathon Kiosk",
+      type: "marathon",
+      desc: "Continuous Exhibition Loop"
+    });
+    videos.push({
+      file: "MARATHON_LOOP_08MIN_480s.mp4",
+      title: "MARATHON LOOP 08MIN 480s",
+      category: "Marathon Kiosk",
+      type: "marathon",
+      desc: "Continuous Exhibition Loop"
+    });
+    videos.push({
+      file: "MARATHON_LOOP_60MIN_3600s.mp4",
+      title: "MARATHON LOOP 60MIN 3600s",
+      category: "Marathon Kiosk",
+      type: "marathon",
+      desc: "Continuous Exhibition Loop"
+    });
+    const grid = document.getElementById('video-grid');
+    const player = document.getElementById('main-player');
+    const pTitle = document.getElementById('player-title');
+    const pDesc = document.getElementById('player-desc');
+    const pBadge = document.getElementById('player-badge');
+    const dBtn = document.getElementById('download-active-btn');
+
+    function renderGrid(filter = 'all') {
+      grid.innerHTML = '';
+      const filtered = filter === 'all' ? videos : videos.filter(v => v.type === filter);
+      filtered.forEach(v => {
+        const card = document.createElement('div');
+        card.className = 'card';
+        card.innerHTML = `
+          <div>
+            <span class="c-badge">${v.category}</span>
+            <h3>${v.title}</h3>
+            <p>${v.desc}</p>
+          </div>
+          <div class="card-footer">
+            <span style="font-family:'JetBrains Mono'; font-size:11px; color:#64748b;">1080P 60FPS</span>
+            <button class="btn-play">▶ Play Now</button>
+          </div>
+        `;
+        card.onclick = () => {
+          player.src = v.file;
+          player.play();
+          pTitle.textContent = v.title;
+          pDesc.textContent = v.desc;
+          pBadge.textContent = `${v.category.toUpperCase()} · 1080P MASTER`;
+          dBtn.href = v.file;
+          window.scrollTo({ top: 120, behavior: 'smooth' });
+        };
+        grid.appendChild(card);
+      });
+    }
+
+    function filterCategory(cat) {
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      event.target.classList.add('active');
+      renderGrid(cat);
+    }
+
+    renderGrid('all');
   </script>
 </body>
 </html>
