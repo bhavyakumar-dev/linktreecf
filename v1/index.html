@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bhavya Kumar — Linktree (Minimalist Edition)</title>
+  <meta name="description" content="All my Cloudflare projects and experiments in one place.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
+</head>
+<body>
+  <main class="wrap">
+    <!-- Top Navigation / Version Switcher -->
+    <header class="top-nav">
+      <nav class="version-pills" aria-label="Version switcher">
+        <a href="./" class="version-pill active" title="Current: Minimalist Edition">✦ Version 1</a>
+        <a href="../v2/" class="version-pill" title="Switch to Cyber Bento Edition">⚡ Version 2</a>
+      </nav>
+      <button class="theme-btn" id="themeToggle" aria-label="Toggle dark/light theme" title="Toggle theme">
+        <svg id="themeIcon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="5"></circle>
+          <line x1="12" y1="1" x2="12" y2="3"></line>
+          <line x1="12" y1="21" x2="12" y2="23"></line>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+          <line x1="1" y1="12" x2="3" y2="12"></line>
+          <line x1="21" y1="12" x2="23" y2="12"></line>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </svg>
+      </button>
+    </header>
+
+    <!-- Profile Header -->
+    <section class="profile">
+      <div class="avatar-wrapper">
+        <div class="avatar" aria-hidden="true">B</div>
+        <div class="status-dot" title="Active"></div>
+      </div>
+      <div class="name-row">
+        <h1>Bhavya Kumar</h1>
+        <svg class="verified-icon" viewBox="0 0 24 24" fill="currentColor" title="Verified Creator">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+        </svg>
+      </div>
+      <p class="subtitle">Cloudflare Projects &amp; Experiments</p>
+      <div class="profile-tags">
+        <span class="profile-tag">Cloudflare Pages</span>
+        <span class="profile-tag">Workers</span>
+        <span class="profile-tag">Full-Stack</span>
+      </div>
+    </section>
+
+    <!-- Links List -->
+    <nav class="links" aria-label="Project links">
+      <!-- 1. Memory Lab -->
+      <a class="card" href="https://memorylab.pages.dev" target="_blank" rel="noopener">
+        <div class="card-content">
+          <div class="card-header-row">
+            <span class="title">Memory Lab</span>
+            <span class="badge">Pages</span>
+          </div>
+          <span class="desc">Memory: An English Exploration &amp; interactive cognitive lab</span>
+          <span class="url">memorylab.pages.dev</span>
+        </div>
+        <div class="card-action" aria-hidden="true">
+          <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="7" y1="17" x2="17" y2="7"></line>
+            <polyline points="7 7 17 7 17 17"></polyline>
+          </svg>
+        </div>
+      </a>
+
+      <!-- 2. Career With English -->
+      <a class="card" href="https://careerwithenglish.pages.dev" target="_blank" rel="noopener">
+        <div class="card-content">
+          <div class="card-header-row">
+            <span class="title">Career With English</span>
+            <span class="badge">Pages</span>
+          </div>
+          <span class="desc">English Careers Forum 2026 — Every Career Speaks English</span>
+          <span class="url">careerwithenglish.pages.dev</span>
+        </div>
+        <div class="card-action" aria-hidden="true">
+          <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="7" y1="17" x2="17" y2="7"></line>
+            <polyline points="7 7 17 7 17 17"></polyline>
+          </svg>
+        </div>
+      </a>
+
+      <!-- 3. Food Fusion -->
+      <a class="card" href="https://foodfusionweb.pages.dev/" target="_blank" rel="noopener">
+        <div class="card-content">
+          <div class="card-header-row">
+            <span class="title">Food Fusion</span>
+            <span class="badge">Pages</span>
+          </div>
+          <span class="desc">Fusion Food Family Lab — Interactive Culinary Science &amp; Games</span>
+          <span class="url">foodfusionweb.pages.dev</span>
+        </div>
+        <div class="card-action" aria-hidden="true">
+          <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="7" y1="17" x2="17" y2="7"></line>
+            <polyline points="7 7 17 7 17 17"></polyline>
+          </svg>
+        </div>
+      </a>
+
+      <!-- 4. Careers With English (Worker) -->
+      <a class="card" href="https://careerswithenglish.bhavyakumar.workers.dev" target="_blank" rel="noopener">
+        <div class="card-content">
+          <div class="card-header-row">
+            <span class="title">Careers With English</span>
+            <span class="badge badge-worker">Worker</span>
+          </div>
+          <span class="desc">Career Fair &amp; Speech Lab powered by Cloudflare Workers</span>
+          <span class="url">careerswithenglish.bhavyakumar.workers.dev</span>
+        </div>
+        <div class="card-action" aria-hidden="true">
+          <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="7" y1="17" x2="17" y2="7"></line>
+            <polyline points="7 7 17 7 17 17"></polyline>
+          </svg>
+        </div>
+      </a>
+    </nav>
+
+    <!-- Footer -->
+    <footer>
+      <button class="share-btn" id="shareBtn">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="18" cy="5" r="3"></circle>
+          <circle cx="6" cy="12" r="3"></circle>
+          <circle cx="18" cy="19" r="3"></circle>
+          <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+          <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+        </svg>
+        <span>Share Profile</span>
+      </button>
+
+      <div class="footer-links">
+        <a href="https://github.com/bhavyakumar-dev" target="_blank" rel="noopener">GitHub Profile</a>
+        <span>•</span>
+        <a href="https://github.com/bhavyakumar-dev/linktreecf" target="_blank" rel="noopener">Source Code</a>
+      </div>
+
+      <p class="footer-copy">© 2026 Bhavya Kumar • Hosted on GitHub Pages</p>
+    </footer>
+  </main>
+
+  <div class="toast" id="toast">Link copied to clipboard!</div>
+
+  <script>
+    // Theme toggle logic
+    const themeBtn = document.getElementById('themeToggle');
+    const themeIcon = document.getElementById('themeIcon');
+    const savedTheme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+
+    function applyTheme(theme) {
+      document.documentElement.setAttribute('data-theme', theme);
+      localStorage.setItem('theme', theme);
+      if (theme === 'dark') {
+        themeIcon.innerHTML = '<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>';
+      } else {
+        themeIcon.innerHTML = '<circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>';
+      }
+    }
+
+    applyTheme(savedTheme);
+
+    themeBtn.addEventListener('click', () => {
+      const current = document.documentElement.getAttribute('data-theme') || 'light';
+      applyTheme(current === 'dark' ? 'light' : 'dark');
+    });
+
+    // Share & toast
+    const shareBtn = document.getElementById('shareBtn');
+    const toast = document.getElementById('toast');
+    shareBtn.addEventListener('click', async () => {
+      const url = window.location.href;
+      if (navigator.share) {
+        try {
+          await navigator.share({ title: 'Bhavya Kumar — Links', url });
+          return;
+        } catch(e) {}
+      }
+      navigator.clipboard.writeText(url).then(() => {
+        toast.classList.add('show');
+        setTimeout(() => toast.classList.remove('show'), 2200);
+      });
+    });
+  </script>
+</body>
+</html>
