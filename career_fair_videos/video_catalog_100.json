@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "MEM_01",
+    "topic": "Memory",
+    "title": "Atkinson-Shiffrin 3-Stage Memory Architecture",
+    "duration": 30,
+    "desc": "Sensory buffer to working memory and permanent consolidation.",
+    "bg": "0x0B0D19",
+    "accent": "0x818CF8",
+    "domain": "Cognitive Science"
+  },
+  {
+    "id": "MEM_02",
+    "topic": "Memory",
+    "title": "Virtual Memory Palace: Method of Loci Masterclass",
+    "duration": 60,
+    "desc": "Pegging 5 critical syllabus topics across virtual rooms.",
+    "bg": "0x0B0D19",
+    "accent": "0x818CF8",
+    "domain": "Cognitive Science"
+  },
+  {
+    "id": "MEM_03",
+    "topic": "Memory",
+    "title": "Ebbinghaus Forgetting Curve: Stop Memory Decay",
+    "duration": 30,
+    "desc": "Spaced repetition algorithms to retain 95%+ across 30 days.",
+    "bg": "0x0B0D19",
+    "accent": "0x818CF8",
+    "domain": "Cognitive Science"
+  },
+  {
+    "id": "MEM_04",
+    "topic": "Memory",
+    "title": "12 Cognitive Arcade Modes: Comprehensive Tour",
+    "duration": 120,
+    "desc": "Interactive training for working memory and pattern recall.",
+    "bg": "0x0B0D19",
+    "accent": "0x818CF8",
+    "domain": "Cognitive Science"
+  },
+  {
+    "id": "MEM_05",
+    "topic": "Memory",
+    "title": "Digit Chunking & Matrix Recall Challenge",
+    "duration": 45,
+    "desc": "Transforming 10-digit streams into memorable cognitive blocks.",
+    "bg": "0x0B0D19",
+    "accent": "0x818CF8",
+    "domain": "Cognitive Science"
+  },
+  {
+    "id": "MEM_06",
+    "topic": "Memory",
+    "title": "Mnemonic Acronym Synthesizer for STEM Formulas",
+    "duration": 60,
+    "desc": "Generating visual anchors and acronyms for complex exams.",
+    "bg": "0x0B0D19",
+    "accent": "0x818CF8",
+    "domain": "Cognitive Science"
+  },
+  {
+    "id": "MEM_07",
+    "topic": "Memory",
+    "title": "Memory Idioms & The Etymology of Recall",
+    "duration": 30,
+    "desc": "Elephant in the room, string around finger, and mind palace.",
+    "bg": "0x0B0D19",
+    "accent": "0x818CF8",
+    "domain": "Cognitive Science"
+  },
+  {
+    "id": "MEM_08",
+    "topic": "Memory",
+    "title": "Neuropsychologist Career Blueprint & Pathways",
+    "duration": 90,
+    "desc": "Clinical neuroscience, brain mapping, and cognitive research.",
+    "bg": "0x0B0D19",
+    "accent": "0x818CF8",
+    "domain": "Cognitive Science"
+  },
+  {
+    "id": "MEM_09",
+    "topic": "Memory",
+    "title": "AI Knowledge Engineer: Modern Memory Careers",
+    "duration": 60,
+    "desc": "Designing semantic memory graphs and vector knowledge bases.",
+    "bg": "0x0B0D19",
+    "accent": "0x818CF8",
+    "domain": "Cognitive Science"
+  },
+  {
+    "id": "MEM_10",
+    "topic": "Memory",
+    "title": "Speech-Language Pathologist: Clinical Excellence",
+    "duration": 90,
+    "desc": "Aphasia rehabilitation, phonemic recall, and verbal fluency.",
+    "bg": "0x0B0D19",
+    "accent": "0x818CF8",
+    "domain": "Cognitive Science"
+  },
+  {
+    "id": "MEM_11",
+    "topic": "Memory",
+    "title": "Olympiad Memory Athlete: Elite Training Drill",
+    "duration": 120,
+    "desc": "Speed memorization for cards, numbers, and vocabulary lists.",
+    "bg": "0x0B0D19",
+    "accent": "0x818CF8",
+    "domain": "Cognitive Science"
+  },
+  {
+    "id": "MEM_12",
+    "topic": "Memory",
+    "title": "Working Memory vs Long-Term Synaptic Plasticity",
+    "duration": 60,
+    "desc": "How active rehearsal alters neural pathways in the brain.",
+    "bg": "0x0B0D19",
+    "accent": "0x818CF8",
+    "domain": "Cognitive Science"
+  },
+  {
+    "id": "MEM_13",
+    "topic": "Memory",
+    "title": "Classroom Leaderboard & Cognitive Hall of Fame",
+    "duration": 30,
+    "desc": "Compete with peers in working memory speed and accuracy.",
+    "bg": "0x0B0D19",
+    "accent": "0x818CF8",
+    "domain": "Cognitive Science"
+  },
+  {
+    "id": "MEM_14",
+    "topic": "Memory",
+    "title": "Sensory Buffer Filtering: Iconic & Echoic Memory",
+    "duration": 45,
+    "desc": "How the brain filters 11 million sensory bits per second.",
+    "bg": "0x0B0D19",
+    "accent": "0x818CF8",
+    "domain": "Cognitive Science"
+  },
+  {
+    "id": "MEM_15",
+    "topic": "Memory",
+    "title": "Episodic Recall vs Semantic Memory Networks",
+    "duration": 60,
+    "desc": "Mapping personal autobiographical memories to conceptual facts.",
+    "bg": "0x0B0D19",
+    "accent": "0x818CF8",
+    "domain": "Cognitive Science"
+  },
+  {
+    "id": "MEM_16",
+    "topic": "Memory",
+    "title": "Spaced Repetition Review Schedule Generator",
+    "duration": 75,
+    "desc": "Day 1, Day 3, Day 7, Day 14, and Day 30 review checkpoints.",
+    "bg": "0x0B0D19",
+    "accent": "0x818CF8",
+    "domain": "Cognitive Science"
+  },
+  {
+    "id": "MEM_17",
+    "topic": "Memory",
+    "title": "Tip-of-the-Tongue Phenomenon: Lexical Access",
+    "duration": 30,
+    "desc": "Why recall blocks happen and how phonemic cues unlock words.",
+    "bg": "0x0B0D19",
+    "accent": "0x818CF8",
+    "domain": "Cognitive Science"
+  },
+  {
+    "id": "MEM_18",
+    "topic": "Memory",
+    "title": "Spatial Navigation & The Hippocampal Grid Cells",
+    "duration": 90,
+    "desc": "The Nobel Prize-winning science behind the Roman Room.",
+    "bg": "0x0B0D19",
+    "accent": "0x818CF8",
+    "domain": "Cognitive Science"
+  },
+  {
+    "id": "MEM_19",
+    "topic": "Memory",
+    "title": "Dual Coding Theory: Visual & Verbal Synergy",
+    "duration": 60,
+    "desc": "Combining Paivio's dual mental codes for 2x recall strength.",
+    "bg": "0x0B0D19",
+    "accent": "0x818CF8",
+    "domain": "Cognitive Science"
+  },
+  {
+    "id": "MEM_20",
+    "topic": "Memory",
+    "title": "Chunking Phone Numbers, Dates & Historical Chronology",
+    "duration": 45,
+    "desc": "Practical student drills for competitive history and chemistry.",
+    "bg": "0x0B0D19",
+    "accent": "0x818CF8",
+    "domain": "Cognitive Science"
+  },
+  {
+    "id": "MEM_21",
+    "topic": "Memory",
+    "title": "Phonological Loop & Visuospatial Sketchpad",
+    "duration": 75,
+    "desc": "Baddeley's working memory model explained for exam prep.",
+    "bg": "0x0B0D19",
+    "accent": "0x818CF8",
+    "domain": "Cognitive Science"
+  },
+  {
+    "id": "MEM_22",
+    "topic": "Memory",
+    "title": "Cognitive Fatigue & Rest Recovery Protocols",
+    "duration": 60,
+    "desc": "How sleep and ultradian rhythms cement long-term memory.",
+    "bg": "0x0B0D19",
+    "accent": "0x818CF8",
+    "domain": "Cognitive Science"
+  },
+  {
+    "id": "MEM_23",
+    "topic": "Memory",
+    "title": "Semantic Priming & Associative Word Networks",
+    "duration": 45,
+    "desc": "Triggering instant recall using conceptual association trees.",
+    "bg": "0x0B0D19",
+    "accent": "0x818CF8",
+    "domain": "Cognitive Science"
+  },
+  {
+    "id": "MEM_24",
+    "topic": "Memory",
+    "title": "Interactive Memory Kiosk: Step-by-Step Guide",
+    "duration": 30,
+    "desc": "How to navigate memorylab.pages.dev on the booth screen.",
+    "bg": "0x0B0D19",
+    "accent": "0x818CF8",
+    "domain": "Cognitive Science"
+  },
+  {
+    "id": "MEM_25",
+    "topic": "Memory",
+    "title": "Classroom Tournament: Top 10 Memory Athletes",
+    "duration": 60,
+    "desc": "Celebrating student high scores in the Cognitive Arcade.",
+    "bg": "0x0B0D19",
+    "accent": "0x818CF8",
+    "domain": "Cognitive Science"
+  },
+  {
+    "id": "MEM_26",
+    "topic": "Memory",
+    "title": "Cognitive Science Degrees & Global University Guide",
+    "duration": 120,
+    "desc": "Top programs in India, UK, and US for neuropsychology.",
+    "bg": "0x0B0D19",
+    "accent": "0x818CF8",
+    "domain": "Cognitive Science"
+  },
+  {
+    "id": "MEM_27",
+    "topic": "Memory",
+    "title": "Acoustic Memory & Auditory Rehearsal Loops",
+    "duration": 45,
+    "desc": "Using rhythm and pitch to memorize foreign language vocab.",
+    "bg": "0x0B0D19",
+    "accent": "0x818CF8",
+    "domain": "Cognitive Science"
+  },
+  {
+    "id": "MEM_28",
+    "topic": "Memory",
+    "title": "Active Recall vs Passive Reading: The 300% Difference",
+    "duration": 60,
+    "desc": "Evidence-backed study strategies for board examinations.",
+    "bg": "0x0B0D19",
+    "accent": "0x818CF8",
+    "domain": "Cognitive Science"
+  },
+  {
+    "id": "MEM_29",
+    "topic": "Memory",
+    "title": "Flashcard Spaced Scheduling: Anki & Digital Tools",
+    "duration": 45,
+    "desc": "Configuring optimal intervals for board exam preparation.",
+    "bg": "0x0B0D19",
+    "accent": "0x818CF8",
+    "domain": "Cognitive Science"
+  },
+  {
+    "id": "MEM_30",
+    "topic": "Memory",
+    "title": "Memory Under Pressure: Exam Anxiety Countermeasures",
+    "duration": 75,
+    "desc": "Vagus nerve calming and cognitive recall stabilization.",
+    "bg": "0x0B0D19",
+    "accent": "0x818CF8",
+    "domain": "Cognitive Science"
+  },
+  {
+    "id": "MEM_31",
+    "topic": "Memory",
+    "title": "Kanakia Memory Champion: Student Success Story",
+    "duration": 60,
+    "desc": "How Grade 11 students doubled their recall test scores.",
+    "bg": "0x0B0D19",
+    "accent": "0x818CF8",
+    "domain": "Cognitive Science"
+  },
+  {
+    "id": "MEM_32",
+    "topic": "Memory",
+    "title": "Grand Memory Master Kiosk Presentation (Part 1)",
+    "duration": 180,
+    "desc": "Complete documentary tour of cognitive science applications.",
+    "bg": "0x0B0D19",
+    "accent": "0x818CF8",
+    "domain": "Cognitive Science"
+  },
+  {
+    "id": "MEM_33",
+    "topic": "Memory",
+    "title": "Grand Memory Master Kiosk Presentation (Part 2)",
+    "duration": 240,
+    "desc": "Advanced neuroscience, neuroplasticity, and future careers.",
+    "bg": "0x0B0D19",
+    "accent": "0x818CF8",
+    "domain": "Cognitive Science"
+  },
+  {
+    "id": "MEM_34",
+    "topic": "Memory",
+    "title": "Memory Lab 30-Second Infinite Looping Billboard",
+    "duration": 30,
+    "desc": "Continuous high-energy billboard display for fair kiosks.",
+    "bg": "0x0B0D19",
+    "accent": "0x818CF8",
+    "domain": "Cognitive Science"
+  },
+  {
+    "id": "FOOD_01",
+    "topic": "Food",
+    "title": "Global Fusion Cuisine Meets Desi Kitchen Rasoi",
+    "duration": 30,
+    "desc": "Replicate Nikkei ceviche, naan pizza & gulab jamun cheesecake.",
+    "bg": "0x050B08",
+    "accent": "0x10B981",
+    "domain": "Culinary Science"
+  },
+  {
+    "id": "FOOD_02",
+    "topic": "Food",
+    "title": "Maillard Reaction Science: The Chemistry of Flavor",
+    "duration": 60,
+    "desc": "Amino acid browning and caramelized savory depth.",
+    "bg": "0x050B08",
+    "accent": "0x10B981",
+    "domain": "Culinary Science"
+  },
+  {
+    "id": "FOOD_03",
+    "topic": "Food",
+    "title": "Umami Synergy: Guanylate & Glutamate Combinations",
+    "duration": 45,
+    "desc": "Pairing mushrooms and slow-cooked tomato reductions.",
+    "bg": "0x050B08",
+    "accent": "0x10B981",
+    "domain": "Culinary Science"
+  },
+  {
+    "id": "FOOD_04",
+    "topic": "Food",
+    "title": "100% Pure Vegetarian Gourmet Molecular Gastronomy",
+    "duration": 60,
+    "desc": "Plant-based gelatin replacements, foams, and emulsions.",
+    "bg": "0x050B08",
+    "accent": "0x10B981",
+    "domain": "Culinary Science"
+  },
+  {
+    "id": "FOOD_05",
+    "topic": "Food",
+    "title": "6-Tier Culinary Master Ladder: Career Ranks",
+    "duration": 90,
+    "desc": "From Kitchen Apprentice to Michelin Star Sorcerer.",
+    "bg": "0x050B08",
+    "accent": "0x10B981",
+    "domain": "Culinary Science"
+  },
+  {
+    "id": "FOOD_06",
+    "topic": "Food",
+    "title": "5 Arcade Food Labs: Interactive Kitchen Games",
+    "duration": 60,
+    "desc": "Culinary trivia, pantry rush, and pronunciation wheel.",
+    "bg": "0x050B08",
+    "accent": "0x10B981",
+    "domain": "Culinary Science"
+  },
+  {
+    "id": "FOOD_07",
+    "topic": "Food",
+    "title": "Peruvian Nikkei Plant Ceviche: Desi Substitution",
+    "duration": 45,
+    "desc": "Replacing raw fish with coconut cream and raw mango cure.",
+    "bg": "0x050B08",
+    "accent": "0x10B981",
+    "domain": "Culinary Science"
+  },
+  {
+    "id": "FOOD_08",
+    "topic": "Food",
+    "title": "Indo-French Fusion: Saffron Macaron & Cardamom Tart",
+    "duration": 60,
+    "desc": "Balancing French patisserie with Indian royal spices.",
+    "bg": "0x050B08",
+    "accent": "0x10B981",
+    "domain": "Culinary Science"
+  },
+  {
+    "id": "FOOD_09",
+    "topic": "Food",
+    "title": "Tex-Mex Tandoori Tacos: Fusion Chemistry",
+    "duration": 45,
+    "desc": "Corn tortillas stuffed with paneer tikka and chipotle crema.",
+    "bg": "0x050B08",
+    "accent": "0x10B981",
+    "domain": "Culinary Science"
+  },
+  {
+    "id": "FOOD_10",
+    "topic": "Food",
+    "title": "Ital-Indian Naan Pizza: High-Heat Crust Dynamics",
+    "duration": 60,
+    "desc": "Charcoal blistered naan with san marzano makhani sauce.",
+    "bg": "0x050B08",
+    "accent": "0x10B981",
+    "domain": "Culinary Science"
+  },
+  {
+    "id": "FOOD_11",
+    "topic": "Food",
+    "title": "Indo-Japanese Miso Curry Broth: Umami Blueprint",
+    "duration": 75,
+    "desc": "Fermented soybean miso integrated with Indian garam masala.",
+    "bg": "0x050B08",
+    "accent": "0x10B981",
+    "domain": "Culinary Science"
+  },
+  {
+    "id": "FOOD_12",
+    "topic": "Food",
+    "title": "Kid-Safe Desi Kitchen Substitutions & Knife Safety",
+    "duration": 45,
+    "desc": "Everyday Indian bazaar swaps for expensive gourmet imports.",
+    "bg": "0x050B08",
+    "accent": "0x10B981",
+    "domain": "Culinary Science"
+  },
+  {
+    "id": "FOOD_13",
+    "topic": "Food",
+    "title": "Food Technologist Career Blueprint & Opportunities",
+    "duration": 90,
+    "desc": "R&D laboratories, food preservation, and quality assurance.",
+    "bg": "0x050B08",
+    "accent": "0x10B981",
+    "domain": "Culinary Science"
+  },
+  {
+    "id": "FOOD_14",
+    "topic": "Food",
+    "title": "Molecular Gastronomy Chef: Future of Fine Dining",
+    "duration": 120,
+    "desc": "Spherification, liquid nitrogen textures, and sensory design.",
+    "bg": "0x050B08",
+    "accent": "0x10B981",
+    "domain": "Culinary Science"
+  },
+  {
+    "id": "FOOD_15",
+    "topic": "Food",
+    "title": "Executive Food Stylist & Culinary Media Producer",
+    "duration": 60,
+    "desc": "Food photography, television styling, and digital media.",
+    "bg": "0x050B08",
+    "accent": "0x10B981",
+    "domain": "Culinary Science"
+  },
+  {
+    "id": "FOOD_16",
+    "topic": "Food",
+    "title": "Nutrition Scientist: Preventive Dietary Design",
+    "duration": 75,
+    "desc": "Micro-nutrient density, gut microbiome, and longevity diets.",
+    "bg": "0x050B08",
+    "accent": "0x10B981",
+    "domain": "Culinary Science"
+  },
+  {
+    "id": "FOOD_17",
+    "topic": "Food",
+    "title": "Culinary Entrepreneur: Launching A Pure Veg Brand",
+    "duration": 90,
+    "desc": "From ghost kitchen to national cloud-kitchen enterprise.",
+    "bg": "0x050B08",
+    "accent": "0x10B981",
+    "domain": "Culinary Science"
+  },
+  {
+    "id": "FOOD_18",
+    "topic": "Food",
+    "title": "Emulsion Science: Stable Eggless Dressings & Sauces",
+    "duration": 45,
+    "desc": "Whisking cold-pressed mustard oil with lemon and plant milk.",
+    "bg": "0x050B08",
+    "accent": "0x10B981",
+    "domain": "Culinary Science"
+  },
+  {
+    "id": "FOOD_19",
+    "topic": "Food",
+    "title": "The Physics of Tandoor Baking: Radiant & Convective",
+    "duration": 60,
+    "desc": "Why clay ovens produce unique blistered flatbreads.",
+    "bg": "0x050B08",
+    "accent": "0x10B981",
+    "domain": "Culinary Science"
+  },
+  {
+    "id": "FOOD_20",
+    "topic": "Food",
+    "title": "Spice Chemistry: Bioactive Curcumin & Piperine Synergy",
+    "duration": 45,
+    "desc": "Enhancing turmeric bioavailability by 2000% with pepper.",
+    "bg": "0x050B08",
+    "accent": "0x10B981",
+    "domain": "Culinary Science"
+  },
+  {
+    "id": "FOOD_21",
+    "topic": "Food",
+    "title": "Fermentation Science: Dosa Batter to Kombucha",
+    "duration": 75,
+    "desc": "Lactic acid bacteria, wild yeast, and gut wellness.",
+    "bg": "0x050B08",
+    "accent": "0x10B981",
+    "domain": "Culinary Science"
+  },
+  {
+    "id": "FOOD_22",
+    "topic": "Food",
+    "title": "Zero-Waste Kitchen: Utilizing Peels, Stems & Seeds",
+    "duration": 60,
+    "desc": "Sustainability in modern culinary institutions.",
+    "bg": "0x050B08",
+    "accent": "0x10B981",
+    "domain": "Culinary Science"
+  },
+  {
+    "id": "FOOD_23",
+    "topic": "Food",
+    "title": "Pantry Rush Arcade Challenge: Beat The Clock",
+    "duration": 30,
+    "desc": "High-energy interactive supermarket sprint on kiosk.",
+    "bg": "0x050B08",
+    "accent": "0x10B981",
+    "domain": "Culinary Science"
+  },
+  {
+    "id": "FOOD_24",
+    "topic": "Food",
+    "title": "Culinary Pronunciation Wheel: Master French & Italian",
+    "duration": 45,
+    "desc": "Accurate phonetic guide to gourmet menu terminology.",
+    "bg": "0x050B08",
+    "accent": "0x10B981",
+    "domain": "Culinary Science"
+  },
+  {
+    "id": "FOOD_25",
+    "topic": "Food",
+    "title": "Family Kitchen Leaderboard: Kids vs Parents",
+    "duration": 30,
+    "desc": "Compete for culinary badges and daily streak trophies.",
+    "bg": "0x050B08",
+    "accent": "0x10B981",
+    "domain": "Culinary Science"
+  },
+  {
+    "id": "FOOD_26",
+    "topic": "Food",
+    "title": "Flavor Pairing Theory: Volatile Aroma Compound Trees",
+    "duration": 90,
+    "desc": "Why chocolate pairs with blue cheese and mint with cumin.",
+    "bg": "0x050B08",
+    "accent": "0x10B981",
+    "domain": "Culinary Science"
+  },
+  {
+    "id": "FOOD_27",
+    "topic": "Food",
+    "title": "Plant-Based Meat Alternatives: Protein Texturization",
+    "duration": 75,
+    "desc": "Soy, pea, and mushroom protein extrusion technologies.",
+    "bg": "0x050B08",
+    "accent": "0x10B981",
+    "domain": "Culinary Science"
+  },
+  {
+    "id": "FOOD_28",
+    "topic": "Food",
+    "title": "Sensory Evaluation: The 5 Basic Tastes & Trigeme",
+    "duration": 60,
+    "desc": "Training your palate to identify balance and acidity.",
+    "bg": "0x050B08",
+    "accent": "0x10B981",
+    "domain": "Culinary Science"
+  },
+  {
+    "id": "FOOD_29",
+    "topic": "Food",
+    "title": "Kanakia Kid Chef Exhibition Showcase",
+    "duration": 45,
+    "desc": "Students presenting signature fusion recipes at the fair.",
+    "bg": "0x050B08",
+    "accent": "0x10B981",
+    "domain": "Culinary Science"
+  },
+  {
+    "id": "FOOD_30",
+    "topic": "Food",
+    "title": "Food Microbiology & Food Safety Standards (HACCP)",
+    "duration": 60,
+    "desc": "Essential industry protocols for commercial kitchens.",
+    "bg": "0x050B08",
+    "accent": "0x10B981",
+    "domain": "Culinary Science"
+  },
+  {
+    "id": "FOOD_31",
+    "topic": "Food",
+    "title": "Grand Culinary Science Kiosk Presentation (Part 1)",
+    "duration": 180,
+    "desc": "The complete story of Indian vegetarian food innovation.",
+    "bg": "0x050B08",
+    "accent": "0x10B981",
+    "domain": "Culinary Science"
+  },
+  {
+    "id": "FOOD_32",
+    "topic": "Food",
+    "title": "Grand Culinary Science Kiosk Presentation (Part 2)",
+    "duration": 240,
+    "desc": "Four-minute masterclass in molecular gastronomy and careers.",
+    "bg": "0x050B08",
+    "accent": "0x10B981",
+    "domain": "Culinary Science"
+  },
+  {
+    "id": "FOOD_33",
+    "topic": "Food",
+    "title": "Fusion Food Lab 30-Second Infinite Looping Billboard",
+    "duration": 30,
+    "desc": "Eye-catching culinary loop for continuous digital signage.",
+    "bg": "0x050B08",
+    "accent": "0x10B981",
+    "domain": "Culinary Science"
+  },
+  {
+    "id": "ENG_01",
+    "topic": "English",
+    "title": "Every Career Speaks English: 32+ Global Roles",
+    "duration": 30,
+    "desc": "Unlock leadership in law, aviation, tech, and medicine.",
+    "bg": "0x030612",
+    "accent": "0x38BDF8",
+    "domain": "Career Intelligence"
+  },
+  {
+    "id": "ENG_02",
+    "topic": "English",
+    "title": "6-Dimension AI Speech Coach & Instant Radar Scoring",
+    "duration": 60,
+    "desc": "Fluency, pronunciation, prosody, vocabulary, confidence, syntax.",
+    "bg": "0x030612",
+    "accent": "0x38BDF8",
+    "domain": "Career Intelligence"
+  },
+  {
+    "id": "ENG_03",
+    "topic": "English",
+    "title": "News Anchor Teleprompter Studio: Live Practice Run",
+    "duration": 60,
+    "desc": "Maintain 140 WPM executive pace with dynamic broadcast copy.",
+    "bg": "0x030612",
+    "accent": "0x38BDF8",
+    "domain": "Career Intelligence"
+  },
+  {
+    "id": "ENG_04",
+    "topic": "English",
+    "title": "AI Mock Interview Simulator: Boardroom Roleplay",
+    "duration": 75,
+    "desc": "High-stakes executive drills with instant vocabulary upgrades.",
+    "bg": "0x030612",
+    "accent": "0x38BDF8",
+    "domain": "Career Intelligence"
+  },
+  {
+    "id": "ENG_05",
+    "topic": "English",
+    "title": "8 Industry Clusters: Where English Is Your Superpower",
+    "duration": 90,
+    "desc": "Comprehensive matrix of modern high-salary careers.",
+    "bg": "0x030612",
+    "accent": "0x38BDF8",
+    "domain": "Career Intelligence"
+  },
+  {
+    "id": "ENG_06",
+    "topic": "English",
+    "title": "International Corporate Law & Cross-Border Arbitration",
+    "duration": 60,
+    "desc": "Drafting bilateral contracts and multilateral negotiation.",
+    "bg": "0x030612",
+    "accent": "0x38BDF8",
+    "domain": "Career Intelligence"
+  },
+  {
+    "id": "ENG_07",
+    "topic": "English",
+    "title": "Commercial Airline Pilot & ICAO Aviation English",
+    "duration": 75,
+    "desc": "Clear radiotelephony communications under pressure.",
+    "bg": "0x030612",
+    "accent": "0x38BDF8",
+    "domain": "Career Intelligence"
+  },
+  {
+    "id": "ENG_08",
+    "topic": "English",
+    "title": "Global Tech Evangelist & AI Prompt Architecture",
+    "duration": 60,
+    "desc": "Leading distributed engineering teams and AI prompt design.",
+    "bg": "0x030612",
+    "accent": "0x38BDF8",
+    "domain": "Career Intelligence"
+  },
+  {
+    "id": "ENG_09",
+    "topic": "English",
+    "title": "Entrance Exam Blueprint: CUET, CLAT, IELTS & SAT",
+    "duration": 90,
+    "desc": "Verbal aptitude benchmarks for top universities worldwide.",
+    "bg": "0x030612",
+    "accent": "0x38BDF8",
+    "domain": "Career Intelligence"
+  },
+  {
+    "id": "ENG_10",
+    "topic": "English",
+    "title": "Cadence & Modulation: The Rhythm of Persuasion",
+    "duration": 45,
+    "desc": "Avoiding monotone speech with pitch contour modulation.",
+    "bg": "0x030612",
+    "accent": "0x38BDF8",
+    "domain": "Career Intelligence"
+  },
+  {
+    "id": "ENG_11",
+    "topic": "English",
+    "title": "Fix The Email Challenge: Executive Communication Drills",
+    "duration": 45,
+    "desc": "Transforming casual slang into polished corporate prose.",
+    "bg": "0x030612",
+    "accent": "0x38BDF8",
+    "domain": "Career Intelligence"
+  },
+  {
+    "id": "ENG_12",
+    "topic": "English",
+    "title": "Acoustic Phonetics: Received Pronunciation Benchmarks",
+    "duration": 60,
+    "desc": "Formant frequencies, vowel length, and consonant clarity.",
+    "bg": "0x030612",
+    "accent": "0x38BDF8",
+    "domain": "Career Intelligence"
+  },
+  {
+    "id": "ENG_13",
+    "topic": "English",
+    "title": "Diplomatic Envoy & UN Multilateral Debate Protocols",
+    "duration": 90,
+    "desc": "Diplomatic etiquette, treaty drafting, and formal address.",
+    "bg": "0x030612",
+    "accent": "0x38BDF8",
+    "domain": "Career Intelligence"
+  },
+  {
+    "id": "ENG_14",
+    "topic": "English",
+    "title": "Investment Banking & FinTech Pitch Presentations",
+    "duration": 75,
+    "desc": "Delivering high-impact investor decks and financial briefings.",
+    "bg": "0x030612",
+    "accent": "0x38BDF8",
+    "domain": "Career Intelligence"
+  },
+  {
+    "id": "ENG_15",
+    "topic": "English",
+    "title": "Broadcast Journalism & Live Anchor Teleprompter Drills",
+    "duration": 60,
+    "desc": "Reading breaking news with composure and articulation.",
+    "bg": "0x030612",
+    "accent": "0x38BDF8",
+    "domain": "Career Intelligence"
+  },
+  {
+    "id": "ENG_16",
+    "topic": "English",
+    "title": "Medical Science & International Clinical Trial Research",
+    "duration": 75,
+    "desc": "Communicating complex medical findings to global journals.",
+    "bg": "0x030612",
+    "accent": "0x38BDF8",
+    "domain": "Career Intelligence"
+  },
+  {
+    "id": "ENG_17",
+    "topic": "English",
+    "title": "Architectural Design & Sustainable Urban Concept Pitch",
+    "duration": 60,
+    "desc": "Presenting structural blueprints to international juries.",
+    "bg": "0x030612",
+    "accent": "0x38BDF8",
+    "domain": "Career Intelligence"
+  },
+  {
+    "id": "ENG_18",
+    "topic": "English",
+    "title": "The Career Alignment Quiz: Match Your Strengths",
+    "duration": 45,
+    "desc": "Interactive kiosk quiz guiding students to their ideal role.",
+    "bg": "0x030612",
+    "accent": "0x38BDF8",
+    "domain": "Career Intelligence"
+  },
+  {
+    "id": "ENG_19",
+    "topic": "English",
+    "title": "Vocabulary Upgrade: 20 Executive Words of the Day",
+    "duration": 45,
+    "desc": "Replace weak verbs with powerful leadership terminology.",
+    "bg": "0x030612",
+    "accent": "0x38BDF8",
+    "domain": "Career Intelligence"
+  },
+  {
+    "id": "ENG_20",
+    "topic": "English",
+    "title": "Diaphragm Breathing & Voice Projection Techniques",
+    "duration": 30,
+    "desc": "Eliminate vocal fatigue during long auditorium speeches.",
+    "bg": "0x030612",
+    "accent": "0x38BDF8",
+    "domain": "Career Intelligence"
+  },
+  {
+    "id": "ENG_21",
+    "topic": "English",
+    "title": "Roleplay Dialogues: Resolving High-Stakes Workplace Scenarios",
+    "duration": 60,
+    "desc": "Active listening and de-escalation communication skills.",
+    "bg": "0x030612",
+    "accent": "0x38BDF8",
+    "domain": "Career Intelligence"
+  },
+  {
+    "id": "ENG_22",
+    "topic": "English",
+    "title": "Kanakia Speech Leaderboard: Student Fluency Champions",
+    "duration": 30,
+    "desc": "Celebrating top speech duel scores on the booth radar.",
+    "bg": "0x030612",
+    "accent": "0x38BDF8",
+    "domain": "Career Intelligence"
+  },
+  {
+    "id": "ENG_23",
+    "topic": "English",
+    "title": "NAAC & NIRF Accredited Colleges: English Criteria",
+    "duration": 60,
+    "desc": "Navigating premier Indian university verbal requirements.",
+    "bg": "0x030612",
+    "accent": "0x38BDF8",
+    "domain": "Career Intelligence"
+  },
+  {
+    "id": "ENG_24",
+    "topic": "English",
+    "title": "IELTS Band 8.5 Strategy: Speaking & Writing Rubrics",
+    "duration": 75,
+    "desc": "Detailed criteria for lexical resource and fluency.",
+    "bg": "0x030612",
+    "accent": "0x38BDF8",
+    "domain": "Career Intelligence"
+  },
+  {
+    "id": "ENG_25",
+    "topic": "English",
+    "title": "CLAT Legal Reasoning & Verbal Comprehension Mastery",
+    "duration": 60,
+    "desc": "Speed reading and logical inference for law entrance.",
+    "bg": "0x030612",
+    "accent": "0x38BDF8",
+    "domain": "Career Intelligence"
+  },
+  {
+    "id": "ENG_26",
+    "topic": "English",
+    "title": "CUET English Section: 100 Percentile Study Plan",
+    "duration": 60,
+    "desc": "Vocabulary, reading passages, idioms, and syntax drill.",
+    "bg": "0x030612",
+    "accent": "0x38BDF8",
+    "domain": "Career Intelligence"
+  },
+  {
+    "id": "ENG_27",
+    "topic": "English",
+    "title": "Voice Comparison Radar: Student vs News Anchor Waveform",
+    "duration": 45,
+    "desc": "Side-by-side pitch contour and speed comparison.",
+    "bg": "0x030612",
+    "accent": "0x38BDF8",
+    "domain": "Career Intelligence"
+  },
+  {
+    "id": "ENG_28",
+    "topic": "English",
+    "title": "Confidence & Body Language in Public Speaking",
+    "duration": 45,
+    "desc": "Eye contact, stage presence, and eliminating filler words.",
+    "bg": "0x030612",
+    "accent": "0x38BDF8",
+    "domain": "Career Intelligence"
+  },
+  {
+    "id": "ENG_29",
+    "topic": "English",
+    "title": "Executive Leadership & C-Suite Communication Style",
+    "duration": 90,
+    "desc": "Inspiring teams, driving strategic vision, and media presence.",
+    "bg": "0x030612",
+    "accent": "0x38BDF8",
+    "domain": "Career Intelligence"
+  },
+  {
+    "id": "ENG_30",
+    "topic": "English",
+    "title": "Speech Lab Kiosk Walkthrough: Step-By-Step",
+    "duration": 30,
+    "desc": "How to test your voice at careerwithenglish.pages.dev.",
+    "bg": "0x030612",
+    "accent": "0x38BDF8",
+    "domain": "Career Intelligence"
+  },
+  {
+    "id": "ENG_31",
+    "topic": "English",
+    "title": "Grand English Careers Kiosk Presentation (Part 1)",
+    "duration": 180,
+    "desc": "Three-minute comprehensive guide to global careers.",
+    "bg": "0x030612",
+    "accent": "0x38BDF8",
+    "domain": "Career Intelligence"
+  },
+  {
+    "id": "ENG_32",
+    "topic": "English",
+    "title": "Grand English Careers Kiosk Presentation (Part 2)",
+    "duration": 240,
+    "desc": "Four-minute flagship documentary on spoken intelligence.",
+    "bg": "0x030612",
+    "accent": "0x38BDF8",
+    "domain": "Career Intelligence"
+  },
+  {
+    "id": "ENG_33",
+    "topic": "English",
+    "title": "English Careers 30-Second Infinite Looping Billboard",
+    "duration": 30,
+    "desc": "Dynamic rotating billboard for career fair booth screen.",
+    "bg": "0x030612",
+    "accent": "0x38BDF8",
+    "domain": "Career Intelligence"
+  }
+]

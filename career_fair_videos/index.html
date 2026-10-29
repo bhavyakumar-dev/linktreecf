@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kanakia Career Fair 2026 — Infinite Loop Video Suite</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #030712;
+      --card: rgba(17, 24, 39, 0.75);
+      --border: rgba(255, 255, 255, 0.1);
+      --cyan: #38bdf8;
+      --indigo: #818cf8;
+      --emerald: #34d399;
+      --gold: #fbbf24;
+      --pink: #f43f5e;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: var(--bg);
+      color: #fff;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      min-height: 100vh;
+      overflow-x: hidden;
+      padding-bottom: 60px;
+    }
+    .glow-bg {
+      position: fixed;
+      width: 700px;
+      height: 700px;
+      border-radius: 50%;
+      filter: blur(140px);
+      pointer-events: none;
+      z-index: 0;
+    }
+    .g1 { top: -100px; left: 10%; background: rgba(56, 189, 248, 0.12); }
+    .g2 { bottom: -100px; right: 10%; background: rgba(129, 140, 248, 0.12); }
+
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 40px 24px;
+      position: relative;
+      z-index: 10;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 30px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 40px;
+    }
+    .brand-h {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .brand-logo {
+      width: 50px;
+      height: 50px;
+      background: linear-gradient(135deg, var(--cyan), var(--indigo));
+      border-radius: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 26px;
+      font-weight: 900;
+    }
+    .brand-text h1 { font-size: 24px; font-weight: 800; }
+    .brand-text p { font-size: 13px; color: #94a3b8; text-transform: uppercase; letter-spacing: 0.1em; }
+
+    .header-actions {
+      display: flex;
+      gap: 14px;
+    }
+    .btn {
+      padding: 12px 24px;
+      border-radius: 9999px;
+      font-size: 14px;
+      font-weight: 700;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.2s ease;
+      cursor: pointer;
+    }
+    .btn-primary {
+      background: linear-gradient(135deg, var(--cyan), #2563eb);
+      color: #fff;
+      border: none;
+      box-shadow: 0 4px 14px rgba(56, 189, 248, 0.3);
+    }
+    .btn-secondary {
+      background: rgba(255, 255, 255, 0.08);
+      color: #cbd5e1;
+      border: 1px solid var(--border);
+    }
+    .btn:hover { transform: translateY(-2px); }
+
+    /* Main Showcase Video Player */
+    .player-section {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 28px;
+      padding: 32px;
+      margin-bottom: 50px;
+      backdrop-filter: blur(20px);
+      display: grid;
+      grid-template-columns: 1.4fr 0.6fr;
+      gap: 36px;
+      align-items: center;
+    }
+    .video-frame-box {
+      width: 100%;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+      background: #000;
+      position: relative;
+    }
+    video {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+    .player-meta h2 { font-size: 32px; font-weight: 900; margin-bottom: 12px; }
+    .player-meta p { font-size: 16px; color: #94a3b8; line-height: 1.6; margin-bottom: 24px; }
+    .badge-row {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 24px;
+    }
+    .p-badge {
+      background: rgba(255, 255, 255, 0.08);
+      padding: 6px 14px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--cyan);
+    }
+
+    /* Gallery Grid */
+    .gallery-title {
+      font-size: 28px;
+      font-weight: 800;
+      margin-bottom: 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 24px;
+    }
+    .v-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      transition: all 0.2s ease;
+      cursor: pointer;
+    }
+    .v-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--cyan);
+    }
+    .v-thumb {
+      height: 160px;
+      background: #0a0f1d;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 40px;
+      margin-bottom: 16px;
+      position: relative;
+    }
+    .v-dur {
+      position: absolute;
+      bottom: 8px;
+      right: 8px;
+      background: rgba(0,0,0,0.8);
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 800;
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .v-name {
+      font-size: 18px;
+      font-weight: 800;
+      margin-bottom: 6px;
+      color: #fff;
+    }
+    .v-desc {
+      font-size: 13px;
+      color: #94a3b8;
+      line-height: 1.4;
+      flex-grow: 1;
+      margin-bottom: 16px;
+    }
+    .v-actions {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="glow-bg g1"></div>
+  <div class="glow-bg g2"></div>
+
+  <div class="container">
+    <header>
+      <div class="brand-h">
+        <div class="brand-logo">K</div>
+        <div class="brand-text">
+          <h1>Kanakia Career Fair 2026 · Video Kiosk Suite</h1>
+          <p>Seamless Infinite Loop Exhibition Videos · 100+ Variations</p>
+        </div>
+      </div>
+      <div class="header-actions">
+        <a href="../index.html" class="btn btn-secondary">← Back to Links</a>
+        <a href="career_fair_videos_bundle.zip" class="btn btn-primary" download>📦 Download ZIP Bundle (31.6 MB)</a>
+      </div>
+    </header>
+
+    <!-- Master Kiosk Player -->
+    <div class="player-section">
+      <div class="video-frame-box">
+        <video id="mainPlayer" controls autoplay loop muted playsinline src="CARTOON_01_Brain_Blast_Arcade_30s.mp4"></video>
+      </div>
+      <div class="player-meta">
+        <div class="badge-row">
+          <span class="p-badge" id="playerBadge">CARTOON ARCADE · 30S LOOP</span>
+          <span class="p-badge" style="color: var(--emerald);">SEAMLESS REPEAT ON</span>
+        </div>
+        <h2 id="playerTitle">Brain Blast Arcade! 🧠⚡</h2>
+        <p id="playerDesc">High dopamine recall arena! Power up your neurons, master the Roman Memory Palace, and crush the cognitive arcade mini-games.</p>
+        <div style="display: flex; gap: 12px;">
+          <a id="downloadBtn" href="CARTOON_01_Brain_Blast_Arcade_30s.mp4" download class="btn btn-primary">⬇️ Download Video</a>
+          <button class="btn btn-secondary" onclick="document.getElementById('mainPlayer').requestFullscreen()">⛶ Fullscreen Kiosk</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Gallery of Videos -->
+    <div class="gallery-title">
+      <span>Exhibition Video Catalog</span>
+      <span style="font-size: 15px; color: #94a3b8;">Click any card to play on repeat</span>
+    </div>
+
+    <div class="video-grid" id="videoGrid">
+      <!-- Cards rendered via JS -->
+    </div>
+  </div>
+
+  <script>
+    const videos = [
+      { id: "CARTOON_01", title: "Brain Blast Arcade! 🧠⚡", dur: "30s", file: "CARTOON_01_Brain_Blast_Arcade_30s.mp4", icon: "🧠", tag: "CARTOON DOPAMINE", desc: "10X combo streak, memory palace & live arcade high scores." },
+      { id: "CARTOON_02", title: "Chef Sizzle Rush! 🥘🔥", dur: "30s", file: "CARTOON_02_Chef_Sizzle_Rush_30s.mp4", icon: "🥘", tag: "CARTOON DOPAMINE", desc: "Molecular desi magic with 100% pure vegetarian culinary physics." },
+      { id: "CARTOON_03", title: "Word Wizard Duel! 🗣️✨", dur: "30s", file: "CARTOON_03_Word_Wizard_Duel_30s.mp4", icon: "🗣️", tag: "CARTOON DOPAMINE", desc: "6D AI speech radar and executive fluency teleprompter battles." },
+      { id: "CARTOON_04", title: "Career Quest 2026! 🚀🎮", dur: "30s", file: "CARTOON_04_Career_Quest_Avatar_Select_30s.mp4", icon: "🚀", tag: "CARTOON DOPAMINE", desc: "Cyber character select: Pilot, Corporate Lawyer, AI Architect & Star Chef." },
+      { id: "CARTOON_05", title: "Dopamine Jackpot Kiosk! 🎰🌟", dur: "30s", file: "CARTOON_05_Dopamine_Jackpot_Spin_30s.mp4", icon: "🎰", tag: "CARTOON DOPAMINE", desc: "Spin the fortune wheel, earn badges, and step up to play now." },
+      { id: "FLAG_01", title: "HyperFrames Teaser Reel", dur: "15s", file: "type01_teaser_15s.mp4", icon: "✨", tag: "HYPERFRAMES 1080P", desc: "High-energy kinetic motion graphics hook covering all 3 domains." },
+      { id: "MEM_01", title: "Atkinson Memory Architecture", dur: "30s", file: "MEM_01_30s.mp4", icon: "🧠", tag: "COGNITIVE SCIENCE", desc: "Sensory buffer to working memory and permanent consolidation." },
+      { id: "MEM_02", title: "Virtual Memory Palace", dur: "60s", file: "MEM_02_60s.mp4", icon: "🏰", tag: "COGNITIVE SCIENCE", desc: "Method of Loci masterclass across 5 virtual rooms." },
+      { id: "FOOD_01", title: "Desi Kitchen Replicator", dur: "30s", file: "FOOD_01_30s.mp4", icon: "🥘", tag: "CULINARY SCIENCE", desc: "Peruvian Nikkei ceviche, naan pizzas and culinary chemistry." },
+      { id: "FOOD_02", title: "Maillard Reaction Science", dur: "60s", file: "FOOD_02_60s.mp4", icon: "🔥", tag: "CULINARY SCIENCE", desc: "Amino acid browning and caramelized savory depth." },
+      { id: "ENG_01", title: "Every Career Speaks English", dur: "30s", file: "ENG_01_30s.mp4", icon: "🗣️", tag: "CAREER INTELLIGENCE", desc: "32+ high-trajectory careers where executive English opens doors." },
+      { id: "ENG_02", title: "6D AI Speech Radar Coach", dur: "60s", file: "ENG_02_60s.mp4", icon: "🎙️", tag: "CAREER INTELLIGENCE", desc: "Fluency, prosody, precision, and executive cadence benchmark." },
+      { id: "MAR_04", title: "4-Minute Kiosk Loop", dur: "4m", file: "MARATHON_LOOP_04MIN_240s.mp4", icon: "🔄", tag: "MARATHON LOOP", desc: "Continuous 4-minute multi-act showcase for stall TVs." },
+      { id: "MAR_08", title: "8-Minute Kiosk Loop", dur: "8m", file: "MARATHON_LOOP_08MIN_480s.mp4", icon: "📺", tag: "MARATHON LOOP", desc: "Continuous 8-minute uninterrupted stall presentation." }
+    ];
+
+    const grid = document.getElementById('videoGrid');
+    const player = document.getElementById('mainPlayer');
+    const pTitle = document.getElementById('playerTitle');
+    const pDesc = document.getElementById('playerDesc');
+    const pBadge = document.getElementById('playerBadge');
+    const dBtn = document.getElementById('downloadBtn');
+
+    videos.forEach(v => {
+      const card = document.createElement('div');
+      card.className = 'v-card';
+      card.innerHTML = `
+        <div class="v-thumb">
+          <span>${v.icon}</span>
+          <span class="v-dur">${v.dur}</span>
+        </div>
+        <div class="v-name">${v.title}</div>
+        <div class="v-desc">${v.desc}</div>
+        <div class="v-actions">
+          <span style="font-size: 11px; font-weight: 800; color: var(--cyan);">${v.tag}</span>
+          <a href="${v.file}" download class="btn btn-secondary" style="padding: 6px 14px; font-size: 12px;" onclick="event.stopPropagation()">⬇️</a>
+        </div>
+      `;
+      card.onclick = () => {
+        player.src = v.file;
+        player.play();
+        pTitle.textContent = v.title;
+        pDesc.textContent = v.desc;
+        pBadge.textContent = `${v.tag} · ${v.dur} LOOP`;
+        dBtn.href = v.file;
+        window.scrollTo({ top: 120, behavior: 'smooth' });
+      };
+      grid.appendChild(card);
+    });
+  </script>
+</body>
+</html>
