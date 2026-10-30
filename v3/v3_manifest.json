@@ -1,0 +1,403 @@
+{
+  "version": "3.0",
+  "generated_at": 1793350319.0236995,
+  "films": [
+    {
+      "base_name": "V3_FILM_01_Flavor_Alchemy_The_Molecular_Kitchen_Wars",
+      "total_parts": 6,
+      "total_size": 42545249,
+      "parts": [
+        {
+          "part": 1,
+          "file": "chunks/V3_FILM_01_Flavor_Alchemy_The_Molecular_Kitchen_Wars/V3_FILM_01_Flavor_Alchemy_The_Molecular_Kitchen_Wars_part001.bin",
+          "size": 8388608
+        },
+        {
+          "part": 2,
+          "file": "chunks/V3_FILM_01_Flavor_Alchemy_The_Molecular_Kitchen_Wars/V3_FILM_01_Flavor_Alchemy_The_Molecular_Kitchen_Wars_part002.bin",
+          "size": 8388608
+        },
+        {
+          "part": 3,
+          "file": "chunks/V3_FILM_01_Flavor_Alchemy_The_Molecular_Kitchen_Wars/V3_FILM_01_Flavor_Alchemy_The_Molecular_Kitchen_Wars_part003.bin",
+          "size": 8388608
+        },
+        {
+          "part": 4,
+          "file": "chunks/V3_FILM_01_Flavor_Alchemy_The_Molecular_Kitchen_Wars/V3_FILM_01_Flavor_Alchemy_The_Molecular_Kitchen_Wars_part004.bin",
+          "size": 8388608
+        },
+        {
+          "part": 5,
+          "file": "chunks/V3_FILM_01_Flavor_Alchemy_The_Molecular_Kitchen_Wars/V3_FILM_01_Flavor_Alchemy_The_Molecular_Kitchen_Wars_part005.bin",
+          "size": 8388608
+        },
+        {
+          "part": 6,
+          "file": "chunks/V3_FILM_01_Flavor_Alchemy_The_Molecular_Kitchen_Wars/V3_FILM_01_Flavor_Alchemy_The_Molecular_Kitchen_Wars_part006.bin",
+          "size": 602209
+        }
+      ],
+      "hls_playlist": "hls/V3_FILM_01_Flavor_Alchemy_The_Molecular_Kitchen_Wars/index.m3u8",
+      "title": "V3 FILM 01 Flavor Alchemy The Molecular Kitchen Wars"
+    },
+    {
+      "base_name": "V3_FILM_02_The_Grand_Rasoi_Legacy_vs_Modernism",
+      "total_parts": 2,
+      "total_size": 14956588,
+      "parts": [
+        {
+          "part": 1,
+          "file": "chunks/V3_FILM_02_The_Grand_Rasoi_Legacy_vs_Modernism/V3_FILM_02_The_Grand_Rasoi_Legacy_vs_Modernism_part001.bin",
+          "size": 8388608
+        },
+        {
+          "part": 2,
+          "file": "chunks/V3_FILM_02_The_Grand_Rasoi_Legacy_vs_Modernism/V3_FILM_02_The_Grand_Rasoi_Legacy_vs_Modernism_part002.bin",
+          "size": 6567980
+        }
+      ],
+      "hls_playlist": "hls/V3_FILM_02_The_Grand_Rasoi_Legacy_vs_Modernism/index.m3u8",
+      "title": "V3 FILM 02 The Grand Rasoi Legacy vs Modernism"
+    },
+    {
+      "base_name": "V3_FILM_03_Synapse_Odyssey_The_Memory_Palace_Trials",
+      "total_parts": 2,
+      "total_size": 13843064,
+      "parts": [
+        {
+          "part": 1,
+          "file": "chunks/V3_FILM_03_Synapse_Odyssey_The_Memory_Palace_Trials/V3_FILM_03_Synapse_Odyssey_The_Memory_Palace_Trials_part001.bin",
+          "size": 8388608
+        },
+        {
+          "part": 2,
+          "file": "chunks/V3_FILM_03_Synapse_Odyssey_The_Memory_Palace_Trials/V3_FILM_03_Synapse_Odyssey_The_Memory_Palace_Trials_part002.bin",
+          "size": 5454456
+        }
+      ],
+      "hls_playlist": "hls/V3_FILM_03_Synapse_Odyssey_The_Memory_Palace_Trials/index.m3u8",
+      "title": "V3 FILM 03 Synapse Odyssey The Memory Palace Trials"
+    },
+    {
+      "base_name": "V3_FILM_04_Mind_Over_Code_The_Cognitive_Decathlon",
+      "total_parts": 3,
+      "total_size": 21787504,
+      "parts": [
+        {
+          "part": 1,
+          "file": "chunks/V3_FILM_04_Mind_Over_Code_The_Cognitive_Decathlon/V3_FILM_04_Mind_Over_Code_The_Cognitive_Decathlon_part001.bin",
+          "size": 8388608
+        },
+        {
+          "part": 2,
+          "file": "chunks/V3_FILM_04_Mind_Over_Code_The_Cognitive_Decathlon/V3_FILM_04_Mind_Over_Code_The_Cognitive_Decathlon_part002.bin",
+          "size": 8388608
+        },
+        {
+          "part": 3,
+          "file": "chunks/V3_FILM_04_Mind_Over_Code_The_Cognitive_Decathlon/V3_FILM_04_Mind_Over_Code_The_Cognitive_Decathlon_part003.bin",
+          "size": 5010288
+        }
+      ],
+      "hls_playlist": "hls/V3_FILM_04_Mind_Over_Code_The_Cognitive_Decathlon/index.m3u8",
+      "title": "V3 FILM 04 Mind Over Code The Cognitive Decathlon"
+    },
+    {
+      "base_name": "V3_FILM_05_Voice_of_the_Horizon_The_Orators_Duel",
+      "total_parts": 2,
+      "total_size": 16673566,
+      "parts": [
+        {
+          "part": 1,
+          "file": "chunks/V3_FILM_05_Voice_of_the_Horizon_The_Orators_Duel/V3_FILM_05_Voice_of_the_Horizon_The_Orators_Duel_part001.bin",
+          "size": 8388608
+        },
+        {
+          "part": 2,
+          "file": "chunks/V3_FILM_05_Voice_of_the_Horizon_The_Orators_Duel/V3_FILM_05_Voice_of_the_Horizon_The_Orators_Duel_part002.bin",
+          "size": 8284958
+        }
+      ],
+      "hls_playlist": "hls/V3_FILM_05_Voice_of_the_Horizon_The_Orators_Duel/index.m3u8",
+      "title": "V3 FILM 05 Voice of the Horizon The Orators Duel"
+    }
+  ],
+  "small_loops": [
+    {
+      "base_name": "V3_ENG_LOOP_030s",
+      "total_parts": 1,
+      "total_size": 3073812,
+      "parts": [
+        {
+          "part": 1,
+          "file": "chunks/V3_ENG_LOOP_030s/V3_ENG_LOOP_030s_part001.bin",
+          "size": 3073812
+        }
+      ],
+      "hls_playlist": "hls/V3_ENG_LOOP_030s/index.m3u8",
+      "title": "V3 ENG LOOP 030s"
+    },
+    {
+      "base_name": "V3_ENG_LOOP_060s",
+      "total_parts": 1,
+      "total_size": 6147614,
+      "parts": [
+        {
+          "part": 1,
+          "file": "chunks/V3_ENG_LOOP_060s/V3_ENG_LOOP_060s_part001.bin",
+          "size": 6147614
+        }
+      ],
+      "hls_playlist": "hls/V3_ENG_LOOP_060s/index.m3u8",
+      "title": "V3 ENG LOOP 060s"
+    },
+    {
+      "base_name": "V3_ENG_LOOP_090s",
+      "total_parts": 2,
+      "total_size": 9247490,
+      "parts": [
+        {
+          "part": 1,
+          "file": "chunks/V3_ENG_LOOP_090s/V3_ENG_LOOP_090s_part001.bin",
+          "size": 8388608
+        },
+        {
+          "part": 2,
+          "file": "chunks/V3_ENG_LOOP_090s/V3_ENG_LOOP_090s_part002.bin",
+          "size": 858882
+        }
+      ],
+      "hls_playlist": "hls/V3_ENG_LOOP_090s/index.m3u8",
+      "title": "V3 ENG LOOP 090s"
+    },
+    {
+      "base_name": "V3_ENG_LOOP_120s",
+      "total_parts": 2,
+      "total_size": 12370773,
+      "parts": [
+        {
+          "part": 1,
+          "file": "chunks/V3_ENG_LOOP_120s/V3_ENG_LOOP_120s_part001.bin",
+          "size": 8388608
+        },
+        {
+          "part": 2,
+          "file": "chunks/V3_ENG_LOOP_120s/V3_ENG_LOOP_120s_part002.bin",
+          "size": 3982165
+        }
+      ],
+      "hls_playlist": "hls/V3_ENG_LOOP_120s/index.m3u8",
+      "title": "V3 ENG LOOP 120s"
+    },
+    {
+      "base_name": "V3_ENG_LOOP_240s",
+      "total_parts": 3,
+      "total_size": 24770617,
+      "parts": [
+        {
+          "part": 1,
+          "file": "chunks/V3_ENG_LOOP_240s/V3_ENG_LOOP_240s_part001.bin",
+          "size": 8388608
+        },
+        {
+          "part": 2,
+          "file": "chunks/V3_ENG_LOOP_240s/V3_ENG_LOOP_240s_part002.bin",
+          "size": 8388608
+        },
+        {
+          "part": 3,
+          "file": "chunks/V3_ENG_LOOP_240s/V3_ENG_LOOP_240s_part003.bin",
+          "size": 7993401
+        }
+      ],
+      "hls_playlist": "hls/V3_ENG_LOOP_240s/index.m3u8",
+      "title": "V3 ENG LOOP 240s"
+    },
+    {
+      "base_name": "V3_FOO_LOOP_030s",
+      "total_parts": 1,
+      "total_size": 3123766,
+      "parts": [
+        {
+          "part": 1,
+          "file": "chunks/V3_FOO_LOOP_030s/V3_FOO_LOOP_030s_part001.bin",
+          "size": 3123766
+        }
+      ],
+      "hls_playlist": "hls/V3_FOO_LOOP_030s/index.m3u8",
+      "title": "V3 FOO LOOP 030s"
+    },
+    {
+      "base_name": "V3_FOO_LOOP_060s",
+      "total_parts": 1,
+      "total_size": 6254839,
+      "parts": [
+        {
+          "part": 1,
+          "file": "chunks/V3_FOO_LOOP_060s/V3_FOO_LOOP_060s_part001.bin",
+          "size": 6254839
+        }
+      ],
+      "hls_playlist": "hls/V3_FOO_LOOP_060s/index.m3u8",
+      "title": "V3 FOO LOOP 060s"
+    },
+    {
+      "base_name": "V3_FOO_LOOP_090s",
+      "total_parts": 2,
+      "total_size": 9394694,
+      "parts": [
+        {
+          "part": 1,
+          "file": "chunks/V3_FOO_LOOP_090s/V3_FOO_LOOP_090s_part001.bin",
+          "size": 8388608
+        },
+        {
+          "part": 2,
+          "file": "chunks/V3_FOO_LOOP_090s/V3_FOO_LOOP_090s_part002.bin",
+          "size": 1006086
+        }
+      ],
+      "hls_playlist": "hls/V3_FOO_LOOP_090s/index.m3u8",
+      "title": "V3 FOO LOOP 090s"
+    },
+    {
+      "base_name": "V3_FOO_LOOP_120s",
+      "total_parts": 2,
+      "total_size": 12549997,
+      "parts": [
+        {
+          "part": 1,
+          "file": "chunks/V3_FOO_LOOP_120s/V3_FOO_LOOP_120s_part001.bin",
+          "size": 8388608
+        },
+        {
+          "part": 2,
+          "file": "chunks/V3_FOO_LOOP_120s/V3_FOO_LOOP_120s_part002.bin",
+          "size": 4161389
+        }
+      ],
+      "hls_playlist": "hls/V3_FOO_LOOP_120s/index.m3u8",
+      "title": "V3 FOO LOOP 120s"
+    },
+    {
+      "base_name": "V3_FOO_LOOP_240s",
+      "total_parts": 3,
+      "total_size": 25134317,
+      "parts": [
+        {
+          "part": 1,
+          "file": "chunks/V3_FOO_LOOP_240s/V3_FOO_LOOP_240s_part001.bin",
+          "size": 8388608
+        },
+        {
+          "part": 2,
+          "file": "chunks/V3_FOO_LOOP_240s/V3_FOO_LOOP_240s_part002.bin",
+          "size": 8388608
+        },
+        {
+          "part": 3,
+          "file": "chunks/V3_FOO_LOOP_240s/V3_FOO_LOOP_240s_part003.bin",
+          "size": 8357101
+        }
+      ],
+      "hls_playlist": "hls/V3_FOO_LOOP_240s/index.m3u8",
+      "title": "V3 FOO LOOP 240s"
+    },
+    {
+      "base_name": "V3_MEM_LOOP_030s",
+      "total_parts": 1,
+      "total_size": 3153502,
+      "parts": [
+        {
+          "part": 1,
+          "file": "chunks/V3_MEM_LOOP_030s/V3_MEM_LOOP_030s_part001.bin",
+          "size": 3153502
+        }
+      ],
+      "hls_playlist": "hls/V3_MEM_LOOP_030s/index.m3u8",
+      "title": "V3 MEM LOOP 030s"
+    },
+    {
+      "base_name": "V3_MEM_LOOP_060s",
+      "total_parts": 1,
+      "total_size": 6315318,
+      "parts": [
+        {
+          "part": 1,
+          "file": "chunks/V3_MEM_LOOP_060s/V3_MEM_LOOP_060s_part001.bin",
+          "size": 6315318
+        }
+      ],
+      "hls_playlist": "hls/V3_MEM_LOOP_060s/index.m3u8",
+      "title": "V3 MEM LOOP 060s"
+    },
+    {
+      "base_name": "V3_MEM_LOOP_090s",
+      "total_parts": 2,
+      "total_size": 9477624,
+      "parts": [
+        {
+          "part": 1,
+          "file": "chunks/V3_MEM_LOOP_090s/V3_MEM_LOOP_090s_part001.bin",
+          "size": 8388608
+        },
+        {
+          "part": 2,
+          "file": "chunks/V3_MEM_LOOP_090s/V3_MEM_LOOP_090s_part002.bin",
+          "size": 1089016
+        }
+      ],
+      "hls_playlist": "hls/V3_MEM_LOOP_090s/index.m3u8",
+      "title": "V3 MEM LOOP 090s"
+    },
+    {
+      "base_name": "V3_MEM_LOOP_120s",
+      "total_parts": 2,
+      "total_size": 12659866,
+      "parts": [
+        {
+          "part": 1,
+          "file": "chunks/V3_MEM_LOOP_120s/V3_MEM_LOOP_120s_part001.bin",
+          "size": 8388608
+        },
+        {
+          "part": 2,
+          "file": "chunks/V3_MEM_LOOP_120s/V3_MEM_LOOP_120s_part002.bin",
+          "size": 4271258
+        }
+      ],
+      "hls_playlist": "hls/V3_MEM_LOOP_120s/index.m3u8",
+      "title": "V3 MEM LOOP 120s"
+    },
+    {
+      "base_name": "V3_MEM_LOOP_240s",
+      "total_parts": 4,
+      "total_size": 25422178,
+      "parts": [
+        {
+          "part": 1,
+          "file": "chunks/V3_MEM_LOOP_240s/V3_MEM_LOOP_240s_part001.bin",
+          "size": 8388608
+        },
+        {
+          "part": 2,
+          "file": "chunks/V3_MEM_LOOP_240s/V3_MEM_LOOP_240s_part002.bin",
+          "size": 8388608
+        },
+        {
+          "part": 3,
+          "file": "chunks/V3_MEM_LOOP_240s/V3_MEM_LOOP_240s_part003.bin",
+          "size": 8388608
+        },
+        {
+          "part": 4,
+          "file": "chunks/V3_MEM_LOOP_240s/V3_MEM_LOOP_240s_part004.bin",
+          "size": 256354
+        }
+      ],
+      "hls_playlist": "hls/V3_MEM_LOOP_240s/index.m3u8",
+      "title": "V3 MEM LOOP 240s"
+    }
+  ]
+}

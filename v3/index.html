@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kanakia Career Fair 2026 — V3 Cinema, Anime Feature Films & Chunk Assembler</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="glow-bg g1"></div>
+  <div class="glow-bg g2"></div>
+
+  <div class="container">
+    <!-- Header -->
+    <header>
+      <div class="brand">
+        <div class="logo">V3</div>
+        <div class="brand-text">
+          <h1>Kanakia Career Fair 2026 · V3 Cinema Suite</h1>
+          <p>5 Feature Anime Films · 15 Hyper-Dopamine Loops · In-Browser Chunk Assembler</p>
+        </div>
+      </div>
+      <div class="header-actions">
+        <a href="../career_fair_videos/index.html" class="pill">⬅ V2 Cinema</a>
+        <a href="../index.html" class="pill">Linktree Hub</a>
+        <a href="https://github.com/bhavyakumar-dev/linktreecf" target="_blank" class="pill primary">GitHub Repo</a>
+      </div>
+    </header>
+
+    <!-- YouTube Playlist Badges -->
+    <div class="playlist-bar">
+      <span class="pl-label">LIVE YOUTUBE PLAYLISTS:</span>
+      <a href="https://www.youtube.com/playlist?list=PLBI8E86ig3Gw" target="_blank" class="pill-yt">🧠 Memory Lab</a>
+      <a href="https://www.youtube.com/playlist?list=PLCkPUTXS361s" target="_blank" class="pill-yt">🍲 Fusion Food Lab</a>
+      <a href="https://www.youtube.com/playlist?list=PLYRFk8mpqN_c" target="_blank" class="pill-yt">🎙️ English Careers Lab</a>
+      <a href="https://www.youtube.com/playlist?list=PLUMycGil2ok0" target="_blank" class="pill-yt">⚡ Cartoon Dopamine Arcade</a>
+      <a href="https://www.youtube.com/playlist?list=PLStXJzbQiNQw" target="_blank" class="pill-yt">♾️ Marathon Kiosk Loops</a>
+    </div>
+
+    <!-- Main Cinema Theater -->
+    <section class="theater-section">
+      <div class="theater-screen">
+        <video id="v3-player" controls autoplay playsinline></video>
+        <div id="loading-overlay" class="loading-overlay hidden">
+          <div class="spinner"></div>
+          <p id="loading-text">Buffering Stream...</p>
+        </div>
+      </div>
+
+      <!-- Player Controls & Chunk Assembler Bar -->
+      <div class="theater-meta">
+        <div class="meta-left">
+          <div class="badges">
+            <span class="badge" id="now-playing-badge">V3 ANIME CINEMA</span>
+            <span class="badge secondary" id="stream-mode-badge">DUAL-ENGINE ACTIVE</span>
+          </div>
+          <h2 id="now-playing-title">Flavor Alchemy: The Molecular Kitchen Wars</h2>
+          <p id="now-playing-desc">Act 1: The Sizzle of Sacred Embers. Mumbai spice markets meet slow clay-pot thermodynamics.</p>
+        </div>
+
+        <div class="meta-right">
+          <!-- In-Browser Assembler Controls -->
+          <div class="assembler-box">
+            <button id="assemble-btn" class="btn-assemble" onclick="startChunkAssembly()">
+              ⚡ Assemble Full 1080p Master in Browser
+            </button>
+            <a id="download-blob-btn" class="btn-download hidden" download="1080p_Master.mp4">
+              ⬇ Download Assembled MP4
+            </a>
+          </div>
+          <!-- Progress bar -->
+          <div id="assembly-progress-container" class="progress-wrap hidden">
+            <div class="progress-info">
+              <span id="progress-status">Fetching Chunks...</span>
+              <span id="progress-pct">0%</span>
+            </div>
+            <div class="progress-bar">
+              <div id="progress-fill" class="progress-fill"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Act Navigator for Active Film -->
+    <section class="act-selector-section">
+      <div class="section-header">
+        <h3>10-Act Chapter Navigation (Active Film)</h3>
+        <span class="tag">0.40s Continuous Motion · Organic Narrative Conclusion</span>
+      </div>
+      <div class="acts-scroll" id="acts-container">
+        <!-- Rendered dynamically -->
+      </div>
+    </section>
+
+    <!-- 5 Feature Film Showcase Grid -->
+    <section class="film-catalog-section">
+      <div class="section-header">
+        <h3>The 5 Standalone Feature Films (5 Hours of Cinema)</h3>
+        <p>Across Cartoon Anime, Realistic Human Proportions, PPT Keynote Diagrams, and Cyberpunk Arenas</p>
+      </div>
+
+      <div class="film-cards-grid" id="films-grid">
+        <!-- Film 1 -->
+        <div class="film-card active" onclick="selectFilm(1)">
+          <div class="card-banner cartoon">
+            <span class="card-tag">CARTOON ANIME · CULINARY WAR</span>
+            <h4>Film 1: Flavor Alchemy</h4>
+            <p>Chef Kabir & Dr. Ananya. Spherification, 140°C Maillard reaction, and cryogenic nitrogen cooking duels.</p>
+          </div>
+          <div class="card-footer">
+            <span>10 Acts · ~60 Mins</span>
+            <span class="action-text">Select Film ▶</span>
+          </div>
+        </div>
+
+        <!-- Film 2 -->
+        <div class="film-card" onclick="selectFilm(2)">
+          <div class="card-banner realistic">
+            <span class="card-tag">REALISTIC HUMAN · CHEF BRIGADE</span>
+            <h4>Film 2: The Grand Rasoi</h4>
+            <p>Devraj & Maya. 6-tier executive chef ladder tournament; heritage spice physics meets French culinary rigor.</p>
+          </div>
+          <div class="card-footer">
+            <span>10 Acts · ~60 Mins</span>
+            <span class="action-text">Select Film ▶</span>
+          </div>
+        </div>
+
+        <!-- Film 3 -->
+        <div class="film-card" onclick="selectFilm(3)">
+          <div class="card-banner ppt">
+            <span class="card-tag">PPT INFOGRAPHIC · COGNITIVE BLUEPRINT</span>
+            <h4>Film 3: Synapse Odyssey</h4>
+            <p>Neha & Dev. Method of Loci spatial stepwells, Atkinson-Shiffrin 3-stage memory pipelines, and SM-2 algorithms.</p>
+          </div>
+          <div class="card-footer">
+            <span>10 Acts · ~60 Mins</span>
+            <span class="action-text">Select Film ▶</span>
+          </div>
+        </div>
+
+        <!-- Film 4 -->
+        <div class="film-card" onclick="selectFilm(4)">
+          <div class="card-banner cyberpunk">
+            <span class="card-tag">CYBERPUNK · NEURAL DECATHLON</span>
+            <h4>Film 4: Mind Over Code</h4>
+            <p>Aryan & Riya. Real-time EEG biofeedback helmets, Dual 5-Back challenges, Stroop chaos chambers, and 120ms reflex tests.</p>
+          </div>
+          <div class="card-footer">
+            <span>10 Acts · ~60 Mins</span>
+            <span class="action-text">Select Film ▶</span>
+          </div>
+        </div>
+
+        <!-- Film 5 -->
+        <div class="film-card" onclick="selectFilm(5)">
+          <div class="card-banner keynote">
+            <span class="card-tag">REALISTIC KEYNOTE · ORATOR DUEL</span>
+            <h4>Film 5: Voice of the Horizon</h4>
+            <p>Aarav & Vikram. 6D AI Speech Radar, chest formants, rolling newsroom teleprompter, and United Nations Youth Keynote.</p>
+          </div>
+          <div class="card-footer">
+            <span>10 Acts · ~60 Mins</span>
+            <span class="action-text">Select Film ▶</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 15 Hyper-Dopamine Small Loop Videos -->
+    <section class="loops-section">
+      <div class="section-header">
+        <h3>15 Hyper-Dopamine Stall Loop Videos (V3)</h3>
+        <p>Zero screen static &gt;0.4s · Constant motion · High dopamine arcade hit for stall hardware kiosks</p>
+      </div>
+
+      <div class="loop-tabs">
+        <button class="tab active" onclick="filterLoops('all')">All Loops (15)</button>
+        <button class="tab" onclick="filterLoops('memory')">Memory Lab (5)</button>
+        <button class="tab" onclick="filterLoops('food')">Fusion Food Lab (5)</button>
+        <button class="tab" onclick="filterLoops('english')">English Careers Lab (5)</button>
+      </div>
+
+      <div class="loops-grid" id="loops-grid">
+        <!-- Loop items rendered dynamically -->
+      </div>
+    </section>
+  </div>
+
+  <script src="assembler.js"></script>
+</body>
+</html>
